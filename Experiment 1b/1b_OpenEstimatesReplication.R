@@ -8,7 +8,7 @@ library(lme4)
 library(languageR)
 
 #read data in
-data <- read.csv("FormattedBatch.csv")
+data <- read.csv("hashed_1b_EstimatesBetwSubj.csv")
 head(data)
 
 #drop columns

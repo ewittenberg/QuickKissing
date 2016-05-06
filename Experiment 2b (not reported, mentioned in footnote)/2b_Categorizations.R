@@ -10,7 +10,7 @@ library(car)
 library(ordinal)
 library(xtable)
 rm(list=ls(all=TRUE))  
-ALL = read.csv("bothlists.csv", header = TRUE)
+ALL = read.csv("hashed_ShortAnswerOptions.csv", header = TRUE)
 ALL <- na.omit(ALL)
 #make value an ordered factor
 ALL$value <- ordered(ALL$numvalue)

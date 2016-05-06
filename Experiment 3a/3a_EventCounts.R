@@ -17,7 +17,7 @@ library(xtable)
 rm(list=ls())
 #read data in
 getwd()
-data <- read.csv("FormattedBatch.csv")
+data <- read.csv("hashed_FormattedBatch.csv")
 head(data)
 #drop columns
 str(data)

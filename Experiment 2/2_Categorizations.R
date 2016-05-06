@@ -9,7 +9,7 @@ library(languageR)
 library(car)
 library(ordinal)
 rm(list=ls(all=TRUE))  
-ALL = read.csv("bothlists.csv", header = TRUE)
+ALL = read.csv("hashed_2_Categorizations.csv", header = TRUE)
 
 #make value an ordered factor
 ALL$value <- ordered(ALL$value)

@@ -11,7 +11,7 @@ library(ordinal)
 rm(list=ls(all=TRUE))  
 #read data in
 getwd()
-data <- read.csv("FormattedBatchHowMany.csv")
+data <- read.csv("hashed_FormattedBatchHowMany.csv")
 length(unique(data$workerId))
 #this is the dataset in which we asked for specific events -- i.e., how many kisses
 ####CLEANING DATA ####

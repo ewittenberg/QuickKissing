@@ -10,7 +10,7 @@ library(xtable)
 
 
 #read data in
-rts <- read.csv("FormattedData.csv")
+rts <- read.csv("hashed_1a_Estimates.csv")
 #drop columns
 str(rts)
 #kick out NAs
