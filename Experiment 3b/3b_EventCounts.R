@@ -8,6 +8,7 @@ library(car)
 library(languageR)
 library(car)
 library(ordinal)
+library(dplyr)
 rm(list=ls(all=TRUE))  
 #read data in
 getwd()
@@ -43,11 +44,6 @@ completecases$category[completecases$category=="LVC"] <- "ditransitive\nlight ve
 completecases$event <- droplevels(completecases$event)
 
 
-#means by condition
-conditiononlymeans <- summaryBy(how.many ~ eventCat + category , FUN=c(mean,sd), data= completecases)
-conditiononlymeans
-
-
 with(completecases, tapply(how.many==0, list(eventCat, category), sum))
 with(completecases, tapply(how.many==0, list(eventCat, category), mean))
 with(completecases, tapply(how.many==0, list(eventCat, category), function(x) sd(x)/sqrt(length(x)-1)))
@@ -58,6 +54,19 @@ completecases$eventCat <- as.factor(completecases$eventCat)
 print(levels(completecases$eventCat)) 
 completecases$eventCat = factor(completecases$eventCat,levels(completecases$eventCat)[c(3,1,2)])
 completecases$exp.how.many <- exp(completecases$log.how.many)
+
+
+#grand mean (by subjects and then by conditions)
+se <- function(x,na.rm=F) {
+  if(na.rm) x <- x[!is.na(x)]
+  sd(x)/sqrt(length(x))
+}
+completecases.bysubj <- summarise(group_by(completecases,eventCat,workerId,category),subj.mean.log=mean(log.how.many))
+print(completecases.summaryStats <- summarise(group_by(completecases.bysubj,eventCat,category),
+                                              grand.mean.log=mean(subj.mean.log),
+                                              SE=se(subj.mean.log),
+                                              grand.mean=exp(mean(subj.mean.log))))
+
 
 #### GRAPHING ####
 y.ticks <- c(1,1.5,2,2.5,3)

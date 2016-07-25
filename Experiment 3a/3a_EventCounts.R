@@ -12,7 +12,7 @@ library(car)
 library(languageR)
 library(car)
 library(xtable)
-
+library(dplyr)
 #this is the dataset in which we asked for general events -- i.e., how many events
 rm(list=ls())
 #read data in
@@ -42,16 +42,6 @@ completecases$category <- as.character(completecases$category)
 completecases$category[completecases$category=="BV"] <- "transitive verb"
 completecases$category[completecases$category=="LVC"] <- "ditransitive\nlight verb"
 completecases$event <- droplevels(completecases$event)
-
-
-#means by condition
-conditiononlymeans <- summaryBy(count ~ eventCat + category , FUN=c(mean,sd), data= completecases)
-conditiononlymeans
-xtable(conditiononlymeans)
-
-#means by item
-itemmeans <- summaryBy(count ~ event + category , FUN=c(mean,sd), data= completecases)
-
 
 
 ## densityplots
@@ -85,10 +75,16 @@ write.table(pairmeans,"pairmeans _N=80_HowMany", col.names=NA)
 
 completecases$log.how.many <- log(completecases$count)
 max(completecases$log.how.many)
-#means by condition
-conditiononlymeans <- summaryBy(log.how.many ~ eventCat + category , FUN=c(mean,sd), data= completecases)
-conditiononlymeans
-xtable(conditiononlymeans)
+#grand mean (by subjects and then by conditions)
+se <- function(x,na.rm=F) {
+  if(na.rm) x <- x[!is.na(x)]
+  sd(x)/sqrt(length(x))
+}
+completecases.bysubj <- summarise(group_by(completecases,eventCat,workerId,category),subj.mean.log=mean(log.how.many))
+print(completecases.summaryStats <- summarise(group_by(completecases.bysubj,eventCat,category),
+                                              grand.mean.log=mean(subj.mean.log),
+                                              SE=se(subj.mean.log),
+                                              grand.mean=exp(mean(subj.mean.log))))
 
 completecases$eventCat <- as.factor(completecases$eventCat)
 print(levels(completecases$eventCat)) 
@@ -99,7 +95,7 @@ y.ticks <- c(1,1.5,2,2.5,3, 3.5,4)
 Category <- factor(completecases$category)
 Category <- relevel(Category,levels(Category)[2])
 
-bar <- ggplot(completecases, aes(x=eventCat,y=log(count+1), fill = Category, ))
+bar <- ggplot(completecases, aes(x=eventCat,y=log(count), fill = Category, ))
 bar + theme_bw() + stat_summary(fun.y= mean, geom = "bar", colour="black", position = "dodge") + 
   stat_summary(fun.data = mean_cl_normal, geom = "errorbar", position = position_dodge(width=.9), width= 0.4) +
   scale_fill_manual(values=c("#253494", "#2ca25f"),name="Construction")  + 
