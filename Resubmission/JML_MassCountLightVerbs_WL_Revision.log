@@ -1,0 +1,2156 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 NOV 2016 11:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**JML_MassCountLightVerbs_WL_Revision.tex
+(./JML_MassCountLightVerbs_WL_Revision.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `JML_MassCountLightVerbs_WL_Revision.spl'.
+
+)
+(./JML_Preamble.tex
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen109
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks18
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks19
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks20
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen118
+\extrarowheight=\dimen119
+\NC@list=\toks24
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+\everycr=\toks25
+\minrowclearance=\skip52
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/linguex/linguex.sty
+Package: linguex 2013/05/28 Example formatting for linguistics v. 4.3
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/gb4e/cgloss4e.sty
+\lineone=\box32
+\linetwo=\box33
+\linethree=\box34
+\wordone=\box35
+\wordtwo=\box36
+\wordthree=\box37
+\gline=\box38
+\glossglue=\skip53
+)
+\c@ExNo=\count107
+\c@SubExNo=\count108
+\c@SubSubExNo=\count109
+\c@FnExNo=\count110
+\c@ABC=\count111
+\currentlabel=\skip54
+\lessthanten=\skip55
+\lessthanhundred=\skip56
+\lessthanthousand=\skip57
+\@Exleftmargin=\skip58
+\Exlabelwidth=\skip59
+\Extopsep=\skip60
+\Exindent=\skip61
+\SubExleftmargin=\skip62
+\SubSubExleftmargin=\skip63
+\Exlabelsep=\skip64
+\alignSubExnegindent=\skip65
+\Exredux=\skip66
+\digitwidth=\skip67
+\mindigitwidth=\skip68
+\c@ExDepth=\count112
+\c@TempExDepth=\count113
+\CollectTokens=\toks26
+LaTeX Info: Redefining \b on input line 307.
+LaTeX Info: Redefining \c on input line 311.
+LaTeX Info: Redefining \d on input line 313.
+\c@tmpaEx=\count114
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen120
+\captionmargin@=\dimen121
+\captionwidth=\dimen122
+\caption@tempdima=\dimen123
+\caption@indent=\dimen124
+\caption@parindent=\dimen125
+\caption@hangindent=\dimen126
+)
+\c@ContinuedFloat=\count115
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count116
+\c@subtable=\count117
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count118
+\U@D=\dimen127
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/usr/local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2012/03/29 v1.1i non floating margin notes for LaTeX
+\c@mn@abspage=\count119
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box39
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\w@pgf@writea=\write5
+\r@pgf@reada=\read1
+\c@pgf@counta=\count120
+\c@pgf@countb=\count121
+\c@pgf@countc=\count122
+\c@pgf@countd=\count123
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count124
+\pgfsyssoftpath@bigbuffer@items=\count125
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count126
+\pgfmath@box=\box40
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count127
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box41
+\pgf@hbox=\box42
+\pgf@layerbox@main=\box43
+\pgf@picture@serial@count=\count128
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen157
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen161
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count129
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box44
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box45
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen163
+\pgf@nodesepend=\dimen164
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen165
+\pgffor@skip=\dimen166
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count130
+\pgfplotmarksize=\dimen167
+)
+\tikz@lastx=\dimen168
+\tikz@lasty=\dimen169
+\tikz@lastxsaved=\dimen170
+\tikz@lastysaved=\dimen171
+\tikzleveldistance=\dimen172
+\tikzsiblingdistance=\dimen173
+\tikz@figbox=\box46
+\tikz@figbox@bg=\box47
+\tikz@tempbox=\box48
+\tikz@tempbox@bg=\box49
+\tikztreelevel=\count131
+\tikznumberofchildren=\count132
+\tikznumberofcurrentchild=\count133
+\tikz@fig@count=\count134
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count135
+\pgfmatrixcurrentcolumn=\count136
+\pgf@matrix@numberofcolumns=\count137
+)
+\tikz@expandcount=\count138
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen174
+\pgfdecoratedremainingdistance=\dimen175
+\pgfdecoratedinputsegmentcompleteddistance=\dimen176
+\pgfdecoratedinputsegmentremainingdistance=\dimen177
+\pgf@decorate@distancetomove=\dimen178
+\pgf@decorate@repeatstate=\count139
+\pgfdecorationsegmentamplitude=\dimen179
+\pgfdecorationsegmentlength=\dimen180
+)
+\tikz@lib@dec@box=\box50
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box51
+\pgfnodeparttwobox=\box52
+\pgfnodepartthreebox=\box53
+\pgfnodepartfourbox=\box54
+\pgfnodeparttwentybox=\box55
+\pgfnodepartnineteenbox=\box56
+\pgfnodeparteighteenbox=\box57
+\pgfnodepartseventeenbox=\box58
+\pgfnodepartsixteenbox=\box59
+\pgfnodepartfifteenbox=\box60
+\pgfnodepartfourteenbox=\box61
+\pgfnodepartthirteenbox=\box62
+\pgfnodeparttwelvebox=\box63
+\pgfnodepartelevenbox=\box64
+\pgfnodeparttenbox=\box65
+\pgfnodepartninebox=\box66
+\pgfnodeparteightbox=\box67
+\pgfnodepartsevenbox=\box68
+\pgfnodepartsixbox=\box69
+\pgfnodepartfivebox=\box70
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.3)
+\pgf@layerbox@background=\box71
+\pgf@layerboxsaved@background=\box72
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.7)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.shapes.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.shapes.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
+)
+\c@brace=\count140
+\c@arrow=\count141
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.0 (rcs-revision 1.2)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.0 (rcs-revision 1.3)
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count142
+\Hy@pagecounter=\count143
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count144
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count145
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen182
+\Fld@menulength=\count146
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count147
+\c@Item=\count148
+\c@Hfootnote=\count149
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count150
+\c@bookmark@seq@number=\count151
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip69
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/changes/changes.sty
+Package: changes 2015/04/27 v2.0.4 changes package
+
+*** changes package 2015/04/27 v2.0.4 ***
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count152
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2009/04/17 v1.3 Extended ifthen features
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count153
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count154
+\calc@Bcount=\count155
+\calc@Adimen=\dimen185
+\calc@Bdimen=\dimen186
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count156
+\calc@Cskip=\skip72
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+changes-option 'final'
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/pdfcolmk.sty
+Package: pdfcolmk 2008/08/11 v1.2 Color support for pdfTeX via marks (HO)
+Package pdfcolmk Info: The color stack of pdfTeX >= 1.40 is used. Therefore
+(pdfcolmk)             this package is not necessary and not loaded.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box73
+\UL@hyphenbox=\box74
+\UL@skip=\skip73
+\UL@hook=\toks41
+\UL@height=\dimen187
+\UL@pe=\count157
+\UL@pixel=\dimen188
+\ULC@box=\box75
+Package: ulem 2012/05/18
+\ULdepth=\dimen189
+)
+\c@Changes@AuthorCount=\count158
+\c@Changes@Author=\count159
+\c@Changes@AddCount=\count160
+\c@Changes@DeleteCount=\count161
+\c@Changes@ReplaceCount=\count162
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/truncate/truncate.sty
+Package: truncate 2001/08/20  ver 3.6
+\@Trunc@RestHyph=\toks42
+)
+\Changes@Len@summ=\skip74
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks43
+\AP@partial=\box76
+\AP@footins=\box77
+)
+No file JML_MassCountLightVerbs_WL_Revision.aux.
+\openout1 = `JML_MassCountLightVerbs_WL_Revision.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 19.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count163
+\scratchdimen=\dimen190
+\scratchbox=\box78
+\nofMPsegments=\count164
+\nofMParguments=\count165
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count166
+\MPscratchDim=\dimen191
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
+\everyMPtoPDFconversion=\toks45
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
+(marginnote)             Extended position detection mode activated.
+
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box79
+Package hyperref Info: Link coloring OFF on input line 19.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count169
+)
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
+\@outlinefile=\write6
+\openout6 = `JML_MassCountLightVerbs_WL_Revision.out'.
+
+LaTeX Font Info:    Try loading font information for U+wasy on input line 45.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+Package natbib Warning: Citation `fausey2010' on page 1 undefined on input line
+ 48.
+
+
+Package natbib Warning: Citation `wittenberg2014sorting' on page 1 undefined on
+ input line 48.
+
+
+Package natbib Warning: Citation `JohnsonGoldberg2013' on page 1 undefined on i
+nput line 48.
+
+[1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Krifka1992' on page 2 undefined on input line
+ 50.
+
+
+Package natbib Warning: Citation `Krifka1992' on page 2 undefined on input line
+ 50.
+
+
+Package natbib Warning: Citation `barner2008events' on page 2 undefined on inpu
+t line 52.
+
+
+Package natbib Warning: Citation `Barner2006' on page 2 undefined on input line
+ 52.
+
+
+LaTeX Warning: Reference `aspectchange_model' on page 2 undefined on input line
+ 54.
+
+
+Package natbib Warning: Citation `Dowty1991' on page 2 undefined on input line 
+54.
+
+
+Package natbib Warning: Citation `Vendler1957' on page 2 undefined on input lin
+e 54.
+
+
+LaTeX Warning: Reference `aspectualdistinction' on page 2 undefined on input li
+ne 54.
+
+
+Package natbib Warning: Citation `paczynski2014events' on page 2 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `barner2008events' on page 2 undefined on inpu
+t line 66.
+
+
+Package natbib Warning: Citation `Kim2015' on page 2 undefined on input line 66
+.
+
+[2]
+\openout2 = `./Figures/MassCount3.aux'.
+
+ (./Figures/MassCount3.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.0 (rcs-revision 1.4)
+)
+Overfull \hbox (5.02943pt too wide) in paragraph at lines 75--75
+ [][][][]\OT1/cmr/bx/n/12 Predictions:
+ []
+
+
+Overfull \hbox (38.96503pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+)
+
+LaTeX Warning: Reference `sec_predictions' on page 3 undefined on input line 67
+.
+
+
+LaTeX Warning: Reference `sec_predictions' on page 3 undefined on input line 67
+.
+
+[3
+
+
+]
+
+Package natbib Warning: Citation `Jespersen1954' on page 4 undefined on input l
+ine 68.
+
+
+Package natbib Warning: Citation `Wiese2006' on page 4 undefined on input line 
+68.
+
+
+Package natbib Warning: Citation `Jackendoff1974' on page 4 undefined on input 
+line 68.
+
+
+Package natbib Warning: Citation `Brugman2001' on page 4 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Butt2003' on page 4 undefined on input line 6
+8.
+
+
+Package natbib Warning: Citation `butt2010' on page 4 undefined on input line 6
+8.
+
+
+Package natbib Warning: Citation `barner2008events' on page 4 undefined on inpu
+t line 68.
+
+
+Package natbib Warning: Citation `WellwoodOUP' on page 4 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `glatz2006funktionsverbgefuge' on page 4 undef
+ined on input line 68.
+
+
+Package natbib Warning: Citation `Allerton2002' on page 4 undefined on input li
+ne 68.
+
+
+Package natbib Warning: Citation `newman1996' on page 4 undefined on input line
+ 68.
+
+
+Package natbib Warning: Citation `bach1986algebra' on page 4 undefined on input
+ line 72.
+
+
+Package natbib Warning: Citation `Krifka1992' on page 4 undefined on input line
+ 72.
+
+
+Package natbib Warning: Citation `casati2008event' on page 4 undefined on input
+ line 72.
+
+
+Package natbib Warning: Citation `quine1969' on page 4 undefined on input line 
+72.
+
+
+Package natbib Warning: Citation `rothstein2008structuring' on page 4 undefined
+ on input line 72.
+
+
+Package natbib Warning: Citation `verkuyl1972compositional' on page 4 undefined
+ on input line 72.
+
+
+Package natbib Warning: Citation `jackendoff1991parts' on page 4 undefined on i
+nput line 72.
+
+
+Package natbib Warning: Citation `Hale1993' on page 4 undefined on input line 7
+2.
+
+
+Package natbib Warning: Citation `Harley05howdo' on page 4 undefined on input l
+ine 72.
+
+
+Package natbib Warning: Citation `rips2015divisions' on page 4 undefined on inp
+ut line 72.
+
+
+Package natbib Warning: Citation `bale2009interpretation' on page 4 undefined o
+n input line 72.
+
+
+Package natbib Warning: Citation `Krifka1992' on page 4 undefined on input line
+ 72.
+
+
+Package natbib Warning: Citation `Wiese2005' on page 4 undefined on input line 
+72.
+
+
+Package natbib Warning: Citation `WellwoodOUP' on page 4 undefined on input lin
+e 74.
+
+
+Package natbib Warning: Citation `WellwoodOUP' on page 4 undefined on input lin
+e 74.
+
+
+Package natbib Warning: Citation `anderson1983accessibility' on page 4 undefine
+d on input line 74.
+
+
+Package natbib Warning: Citation `anderson1983accessibility' on page 4 undefine
+d on input line 74.
+
+
+Package natbib Warning: Citation `magliano2011impact' on page 4 undefined on in
+put line 74.
+
+
+Package natbib Warning: Citation `magliano2011impact' on page 4 undefined on in
+put line 74.
+
+
+Package natbib Warning: Citation `zacks2001event' on page 4 undefined on input 
+line 74.
+
+
+Package natbib Warning: Citation `zacks2001event' on page 4 undefined on input 
+line 74.
+
+[4
+
+]
+
+Package natbib Warning: Citation `andersson1972aktionalitat' on page 5 undefine
+d on input line 80.
+
+
+Package natbib Warning: Citation `andersson1972aktionalitat' on page 5 undefine
+d on input line 80.
+
+
+Package natbib Warning: Citation `garey1957verbal' on page 5 undefined on input
+ line 80.
+
+
+Package natbib Warning: Citation `garey1957verbal' on page 5 undefined on input
+ line 80.
+
+
+Package natbib Warning: Citation `bauer1970english' on page 5 undefined on inpu
+t line 80.
+
+
+Package natbib Warning: Citation `bauer1970english' on page 5 undefined on inpu
+t line 80.
+
+
+Package natbib Warning: Citation `klein1994time' on page 5 undefined on input l
+ine 80.
+
+
+Package natbib Warning: Citation `klein1994time' on page 5 undefined on input l
+ine 80.
+
+
+Package natbib Warning: Citation `Vendler1957' on page 5 undefined on input lin
+e 80.
+
+
+Package natbib Warning: Citation `Vendler1957' on page 5 undefined on input lin
+e 80.
+
+
+Package natbib Warning: Citation `bott2010' on page 5 undefined on input line 8
+0.
+
+
+Package natbib Warning: Citation `bott2010' on page 5 undefined on input line 8
+0.
+
+
+Package natbib Warning: Citation `kearns2000semantics' on page 5 undefined on i
+nput line 80.
+
+
+Package natbib Warning: Citation `kearns2000semantics' on page 5 undefined on i
+nput line 80.
+
+[5]
+
+Package natbib Warning: Citation `gordon1985evaluating' on page 6 undefined on 
+input line 84.
+
+
+Package natbib Warning: Citation `srinivasan2015concepts' on page 6 undefined o
+n input line 84.
+
+
+Package natbib Warning: Citation `Allerton2002' on page 6 undefined on input li
+ne 86.
+
+
+Package natbib Warning: Citation `miyagawa1989light' on page 6 undefined on inp
+ut line 86.
+
+
+Package natbib Warning: Citation `Grimshaw1988' on page 6 undefined on input li
+ne 86.
+
+
+Package natbib Warning: Citation `glatz2006funktionsverbgefuge' on page 6 undef
+ined on input line 86.
+
+[6]
+
+Package natbib Warning: Citation `kahneman1977intuitive' on page 7 undefined on
+ input line 91.
+
+
+Package natbib Warning: Citation `roy2005underestimating' on page 7 undefined o
+n input line 91.
+
+
+Package natbib Warning: Citation `kruger2004if' on page 7 undefined on input li
+ne 91.
+
+
+Package natbib Warning: Citation `halkjelsvik2011read' on page 7 undefined on i
+nput line 91.
+
+
+Package natbib Warning: Citation `loftus1987time' on page 7 undefined on input 
+line 91.
+
+
+Package natbib Warning: Citation `tse2004attention' on page 7 undefined on inpu
+t line 91.
+
+
+Package natbib Warning: Citation `macar1994controlled' on page 7 undefined on i
+nput line 91.
+
+
+Package natbib Warning: Citation `boltz1995effects' on page 7 undefined on inpu
+t line 91.
+
+
+Package natbib Warning: Citation `madden2003does' on page 7 undefined on input 
+line 91.
+
+
+Package natbib Warning: Citation `magliano2000verb' on page 7 undefined on inpu
+t line 91.
+
+
+Package natbib Warning: Citation `gropen1991' on page 7 undefined on input line
+ 93.
+
+
+Package natbib Warning: Citation `fausey2010' on page 7 undefined on input line
+ 93.
+
+
+Package natbib Warning: Citation `wittenberg2014sorting' on page 7 undefined on
+ input line 93.
+
+
+Package natbib Warning: Citation `Wittenbergunderreview' on page 7 undefined on
+ input line 93.
+
+
+Package natbib Warning: Citation `WellwoodOUP' on page 7 undefined on input lin
+e 93.
+
+
+Package natbib Warning: Citation `burt1996effects' on page 7 undefined on input
+ line 95.
+
+
+Package natbib Warning: Citation `flecken2013grammatical' on page 7 undefined o
+n input line 95.
+
+
+Package natbib Warning: Citation `pedersen2002differences' on page 7 undefined 
+on input line 95.
+
+
+Package natbib Warning: Citation `coll2011time' on page 7 undefined on input li
+ne 95.
+
+[7]
+
+Package natbib Warning: Citation `halle1994some' on page 8 undefined on input l
+ine 99.
+
+
+Package natbib Warning: Citation `barner2002no' on page 8 undefined on input li
+ne 99.
+
+
+Package natbib Warning: Citation `Jackendoff2007a' on page 8 undefined on input
+ line 101.
+
+
+Package natbib Warning: Citation `Jackendoff2002' on page 8 undefined on input 
+line 101.
+
+
+Package natbib Warning: Citation `GarrodPickering2003' on page 8 undefined on i
+nput line 101.
+
+
+Package natbib Warning: Citation `levy2008' on page 8 undefined on input line 1
+01.
+
+
+Package natbib Warning: Citation `martin2016language' on page 8 undefined on in
+put line 101.
+
+
+Package natbib Warning: Citation `goldberg2003' on page 8 undefined on input li
+ne 101.
+
+
+Package natbib Warning: Citation `Goldberg1995' on page 8 undefined on input li
+ne 101.
+
+[8]
+
+LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
+ 104.
+
+
+LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
+ 106.
+
+
+Package natbib Warning: Citation `paczynski2014events' on page 9 undefined on i
+nput line 106.
+
+
+Package natbib Warning: Citation `barner2008events' on page 9 undefined on inpu
+t line 106.
+
+
+Package natbib Warning: Citation `Kim2015' on page 9 undefined on input line 10
+6.
+
+
+LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
+ 106.
+
+
+LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
+ 108.
+
+[9]
+
+LaTeX Warning: Reference `aspectchange_model' on page 10 undefined on input lin
+e 110.
+
+
+LaTeX Warning: Reference `aspectchange_model' on page 10 undefined on input lin
+e 110.
+
+
+LaTeX Warning: Reference `sec_expOE' on page 10 undefined on input line 112.
+
+
+LaTeX Warning: Reference `sec_exCat' on page 10 undefined on input line 112.
+
+
+LaTeX Warning: Reference `sec_expHowMany' on page 10 undefined on input line 11
+2.
+
+
+LaTeX Warning: Reference `sec_expES' on page 10 undefined on input line 112.
+
+
+Overfull \hbox (39.59923pt too wide) in paragraph at lines 117--136
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10]
+
+LaTeX Warning: Reference `ex_pairs' on page 11 undefined on input line 141.
+
+
+LaTeX Warning: Reference `aspectchange_model' on page 11 undefined on input lin
+e 141.
+
+[11]
+
+LaTeX Warning: Reference `aspectchange_model' on page 12 undefined on input lin
+e 148.
+
+[12]
+
+Package natbib Warning: Citation `buhrmester2011amazon' on page 13 undefined on
+ input line 153.
+
+
+Package natbib Warning: Citation `crump2013evaluating' on page 13 undefined on 
+input line 153.
+
+
+LaTeX Warning: Reference `sec_stims' on page 13 undefined on input line 156.
+
+
+LaTeX Warning: Reference `fig_resOE' on page 13 undefined on input line 164.
+
+<./Figures/Exp1a_AllEventsBar.pdf, id=129, 867.24pt x 578.16pt>
+File: ./Figures/Exp1a_AllEventsBar.pdf Graphic file (type pdf)
+
+<use ./Figures/Exp1a_AllEventsBar.pdf>
+Package pdftex.def Info: ./Figures/Exp1a_AllEventsBar.pdf used on input line 16
+8.
+(pdftex.def)             Requested size: 390.0pt x 260.00197pt.
+ [13] [14 <./Figures/Exp1a_AllEventsBar.pdf>]
+
+Package natbib Warning: Citation `baayen2008mixed' on page 15 undefined on inpu
+t line 177.
+
+
+Package natbib Warning: Citation `bates2014package' on page 15 undefined on inp
+ut line 177.
+
+
+Package natbib Warning: Citation `barr2013' on page 15 undefined on input line 
+177.
+
+
+Package natbib Warning: Citation `levy2014mainEffects' on page 15 undefined on 
+input line 177.
+
+
+LaTeX Warning: Reference `table_OEregr' on page 15 undefined on input line 179.
+
+
+
+LaTeX Warning: Reference `table_OEregr' on page 15 undefined on input line 181.
+
+
+
+Package natbib Warning: Citation `grondin1999start' on page 15 undefined on inp
+ut line 212.
+
+
+Package natbib Warning: Citation `zakay1995attentional' on page 15 undefined on
+ input line 212.
+
+[15] <./Figures/Exp1b_AllEventsBar.pdf, id=162, 867.24pt x 578.16pt>
+File: ./Figures/Exp1b_AllEventsBar.pdf Graphic file (type pdf)
+
+<use ./Figures/Exp1b_AllEventsBar.pdf>
+Package pdftex.def Info: ./Figures/Exp1b_AllEventsBar.pdf used on input line 21
+6.
+(pdftex.def)             Requested size: 390.0pt x 260.00197pt.
+
+
+LaTeX Warning: Reference `fig_resOE1b' on page 16 undefined on input line 221.
+
+
+LaTeX Warning: Reference `table_OE_BetwSubj' on page 16 undefined on input line
+ 223.
+
+
+LaTeX Warning: Reference `table_OE_BetwSubj' on page 16 undefined on input line
+ 223.
+
+
+LaTeX Warning: Reference `table_OE_BetwSubj' on page 16 undefined on input line
+ 225.
+
+[16]
+
+LaTeX Warning: Reference `sec_predictions' on page 17 undefined on input line 2
+45.
+
+[17 <./Figures/Exp1b_AllEventsBar.pdf>]
+
+Package natbib Warning: Citation `roy2005underestimating' on page 18 undefined 
+on input line 247.
+
+
+Package natbib Warning: Citation `kahneman1977intuitive' on page 18 undefined o
+n input line 247.
+
+[18]
+
+LaTeX Warning: Reference `fig_resCat' on page 19 undefined on input line 280.
+
+
+Package natbib Warning: Citation `Christensen2015' on page 19 undefined on inpu
+t line 282.
+
+[19]
+
+LaTeX Warning: Reference `tab_regrCat' on page 20 undefined on input line 284.
+
+
+LaTeX Warning: Reference `tab_regrCat' on page 20 undefined on input line 286.
+
+[20] <./Figures/Exp2_CategorizationCategory.pdf, id=200, 867.24pt x 578.16pt>
+File: ./Figures/Exp2_CategorizationCategory.pdf Graphic file (type pdf)
+
+<use ./Figures/Exp2_CategorizationCategory.pdf>
+Package pdftex.def Info: ./Figures/Exp2_CategorizationCategory.pdf used on inpu
+t line 313.
+(pdftex.def)             Requested size: 390.0pt x 260.00197pt.
+ [21] [22 <./Figures/Exp2_CategorizationCategory.pdf>]
+
+Package natbib Warning: Citation `Kim2015' on page 23 undefined on input line 3
+32.
+
+
+Overfull \hbox (2.23714pt too wide) in paragraph at lines 332--333
+[]\OT1/cmr/m/n/12 The the-o-ret-i-cally most cru-cial pre-dic-tion ap-plies to 
+punc-tive events. Punc-
+ []
+
+[23]
+
+Package natbib Warning: Citation `barner2008events' on page 24 undefined on inp
+ut line 334.
+
+
+Package natbib Warning: Citation `Krifka1992' on page 24 undefined on input lin
+e 334.
+
+
+LaTeX Warning: Reference `ex_pairs' on page 24 undefined on input line 346.
+
+[24]
+
+LaTeX Warning: Reference `fig_resCount' on page 25 undefined on input line 351.
+
+
+<./Figures/Exp3a_EventCountsBar.pdf, id=236, 867.24pt x 578.16pt>
+File: ./Figures/Exp3a_EventCountsBar.pdf Graphic file (type pdf)
+
+<use ./Figures/Exp3a_EventCountsBar.pdf>
+Package pdftex.def Info: ./Figures/Exp3a_EventCountsBar.pdf used on input line 
+355.
+(pdftex.def)             Requested size: 390.0pt x 260.00197pt.
+
+
+LaTeX Warning: Reference `tab_countsregr3' on page 25 undefined on input line 3
+79.
+
+
+LaTeX Warning: Reference `tab_countsregr3' on page 25 undefined on input line 3
+79.
+
+[25 <./Figures/Exp3a_EventCountsBar.pdf>]
+
+LaTeX Warning: Reference `fig_resCount3b' on page 26 undefined on input line 38
+2.
+
+<./Figures/Exp3b_EventCountsBar.pdf, id=249, 867.24pt x 578.16pt>
+File: ./Figures/Exp3b_EventCountsBar.pdf Graphic file (type pdf)
+
+<use ./Figures/Exp3b_EventCountsBar.pdf>
+Package pdftex.def Info: ./Figures/Exp3b_EventCountsBar.pdf used on input line 
+386.
+(pdftex.def)             Requested size: 390.0pt x 260.00197pt.
+
+
+LaTeX Warning: Reference `tab_countsregr3b' on page 26 undefined on input line 
+391.
+
+
+LaTeX Warning: Reference `tab_countsregr3b' on page 26 undefined on input line 
+391.
+
+[26] [27 <./Figures/Exp3b_EventCountsBar.pdf>] [28]
+
+LaTeX Warning: Reference `ex_pairs' on page 29 undefined on input line 431.
+
+
+LaTeX Warning: Reference `fig_resSimilarity' on page 29 undefined on input line
+ 436.
+
+
+LaTeX Warning: Reference `tab_SimilarityModels' on page 29 undefined on input l
+ine 453.
+
+[29] <./Figures/Exp4_EventSimilarityBar.pdf, id=284, 867.24pt x 650.43pt>
+File: ./Figures/Exp4_EventSimilarityBar.pdf Graphic file (type pdf)
+
+<use ./Figures/Exp4_EventSimilarityBar.pdf>
+Package pdftex.def Info: ./Figures/Exp4_EventSimilarityBar.pdf used on input li
+ne 457.
+(pdftex.def)             Requested size: 390.0pt x 292.50221pt.
+
+
+Package natbib Warning: Citation `miyagawa1989light' on page 30 undefined on in
+put line 463.
+
+
+Package natbib Warning: Citation `Grimshaw1988' on page 30 undefined on input l
+ine 463.
+
+
+Package natbib Warning: Citation `glatz2006funktionsverbgefuge' on page 30 unde
+fined on input line 463.
+
+
+Package natbib Warning: Citation `gordon1985evaluating' on page 30 undefined on
+ input line 463.
+
+
+Package natbib Warning: Citation `srinivasan2015concepts' on page 30 undefined 
+on input line 463.
+
+
+Package natbib Warning: Citation `Wiese2005' on page 30 undefined on input line
+ 463.
+
+[30]
+
+LaTeX Warning: Reference `aspectchange_model' on page 31 undefined on input lin
+e 468.
+
+
+LaTeX Warning: Reference `aspectchange_model' on page 31 undefined on input lin
+e 468.
+
+
+Package natbib Warning: Citation `Krifka1992' on page 31 undefined on input lin
+e 468.
+
+
+Package natbib Warning: Citation `jackendoff1991parts' on page 31 undefined on 
+input line 468.
+
+
+Package natbib Warning: Citation `Harley05howdo' on page 31 undefined on input 
+line 468.
+
+
+Package natbib Warning: Citation `WellwoodOUP' on page 31 undefined on input li
+ne 468.
+
+
+Package natbib Warning: Citation `bach1986algebra' on page 31 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `casati2008event' on page 31 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `Kim2015' on page 31 undefined on input line 4
+70.
+
+[31 <./Figures/Exp4_EventSimilarityBar.pdf>]
+
+Package natbib Warning: Citation `barner2008events' on page 32 undefined on inp
+ut line 478.
+
+
+Package natbib Warning: Citation `Krifka1992' on page 32 undefined on input lin
+e 478.
+
+
+Overfull \hbox (2.9987pt too wide) in paragraph at lines 480--481
+[]\OT1/cmr/m/n/12 Experiment 4 showed, con-sis-tent with our pre-dic-tions, tha
+t du-ra-tive events
+ []
+
+[32]
+
+Package natbib Warning: Citation `Krifka1992' on page 33 undefined on input lin
+e 484.
+
+
+Package natbib Warning: Citation `quine1969' on page 33 undefined on input line
+ 484.
+
+
+Package natbib Warning: Citation `verkuyl1972compositional' on page 33 undefine
+d on input line 484.
+
+
+Package natbib Warning: Citation `fausey2010' on page 33 undefined on input lin
+e 486.
+
+
+Package natbib Warning: Citation `JohnsonGoldberg2013' on page 33 undefined on 
+input line 486.
+
+
+Package natbib Warning: Citation `wittenberg2014sorting' on page 33 undefined o
+n input line 486.
+
+
+Package natbib Warning: Citation `gropen1991' on page 33 undefined on input lin
+e 486.
+
+
+Package natbib Warning: Citation `bresnan2007' on page 33 undefined on input li
+ne 486.
+
+
+Package natbib Warning: Citation `benor2006chicken' on page 33 undefined on inp
+ut line 486.
+
+
+Package natbib Warning: Citation `wittenberg2014b' on page 33 undefined on inpu
+t line 488.
+
+
+Package natbib Warning: Citation `wittenberg2011' on page 33 undefined on input
+ line 488.
+
+
+Package natbib Warning: Citation `Briem2009' on page 33 undefined on input line
+ 488.
+
+
+Package natbib Warning: Citation `Pinangoinpress' on page 33 undefined on input
+ line 488.
+
+
+Package natbib Warning: Citation `wittenberg2014sorting' on page 33 undefined o
+n input line 488.
+
+
+Package natbib Warning: Citation `Wittenbergunderreview' on page 33 undefined o
+n input line 488.
+
+
+Package natbib Warning: Citation `Sprenger2006' on page 33 undefined on input l
+ine 494.
+
+
+Package natbib Warning: Citation `titone2014time' on page 33 undefined on input
+ line 494.
+
+
+Package natbib Warning: Citation `holsinger2013representing' on page 33 undefin
+ed on input line 494.
+
+
+Package natbib Warning: Citation `cutting1997s' on page 33 undefined on input l
+ine 494.
+
+
+Package natbib Warning: Citation `tabossi2009idiom' on page 33 undefined on inp
+ut line 494.
+
+[33] [34] (./Acknowledgments.tex) [35
+
+]
+No file JML_MassCountLightVerbs_WL_Revision.bbl.
+(./AppendixA.tex [36
+
+
+]) (./AppendixB.tex [37]
+
+Package natbib Warning: Citation `RCT2014' on page 38 undefined on input line 3
+.
+
+
+Package natbib Warning: Citation `Christensen2015' on page 38 undefined on inpu
+t line 3.
+
+
+LaTeX Warning: Reference `fig:cumulative-logit-models' on page 38 undefined on 
+input line 26.
+
+<Figures/cumulative-logit-models.pdf, id=354, 433.62pt x 433.62pt>
+File: Figures/cumulative-logit-models.pdf Graphic file (type pdf)
+
+<use Figures/cumulative-logit-models.pdf>
+Package pdftex.def Info: Figures/cumulative-logit-models.pdf used on input line
+ 30.
+(pdftex.def)             Requested size: 312.00119pt x 312.01428pt.
+)
+
+Package natbib Warning: There were undefined citations.
+
+\Changes@OutFile=\write7
+\openout7 = `JML_MassCountLightVerbs_WL_Revision.soc'.
+
+[38
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 508.
+ [39 <./Figures/cumulative-logit-models.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 508.
+
+(./JML_MassCountLightVerbs_WL_Revision.aux (./Figures/MassCount3.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 508.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 508.
+
+
+Package rerunfilecheck Warning: File `JML_MassCountLightVerbs_WL_Revision.out' 
+has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `JML_MassCountLightVerbs_WL_Revision
+.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  C94AD71727ABFFD8A4D41F803FFC6490;2448.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 508.
+ ) 
+Here is how much of TeX's memory you used:
+ 23631 strings out of 493089
+ 458834 string characters out of 6134842
+ 545540 words of memory out of 5000000
+ 26464 multiletter control sequences out of 15000+600000
+ 12835 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,75p,2024b,1164s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on JML_MassCountLightVerbs_WL_Revision.pdf (39 pages, 371300 byt
+es).
+PDF statistics:
+ 474 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+

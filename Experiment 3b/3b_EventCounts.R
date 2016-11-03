@@ -104,7 +104,11 @@ completecases$eventCat1 <- eventCat.numeric[1,]
 completecases$eventCat2 <- eventCat.numeric[2,]
 
 #model with full effect structure
-system.time(m.full <- lmer(log(how.many) ~ 1 + category.numeric*(eventCat1+eventCat2) + (1|workerId) + (0+ category.numeric|workerId) +(0+eventCat1|workerId) + (0+eventCat2|workerId) + (0 + category.numeric:eventCat1|workerId) + (0+category.numeric:eventCat2|workerId) + (1 | event) + (0+ category.numeric|event), data=completecases,REML=F))
+system.time(m.full <- lmer(log(how.many) ~ 1 + category.numeric*(eventCat1+eventCat2) + (1|workerId) + 
+                             (0+ category.numeric|workerId) +(0+eventCat1|workerId) + 
+                             (0+eventCat2|workerId) + (0 + category.numeric:eventCat1|workerId) + 
+                             (0+category.numeric:eventCat2|workerId) + (1 | event) + (0+ category.numeric|event), 
+                              data=completecases,REML=F))
 system.time(m.noEventCat <- lmer(log(how.many) ~ 1 + category.numeric + category.numeric:(eventCat1+eventCat2) + (1|workerId) + (0+ category.numeric|workerId) +(0+eventCat1|workerId) + (0+eventCat2|workerId) + (0 + category.numeric:eventCat1|workerId) + (0+category.numeric:eventCat2|workerId) + (1 | event) + (0+ category.numeric|event), data=completecases,REML=F))
 anova(m.noEventCat,m.full)
 system.time(m.noCategory <- lmer(log(how.many) ~ 1 + eventCat1+eventCat2 + category.numeric:(eventCat1+eventCat2) + (1|workerId) + (0+ category.numeric|workerId) +(0+eventCat1|workerId) + (0+eventCat2|workerId) + (0 + category.numeric:eventCat1|workerId) + (0+category.numeric:eventCat2|workerId) + (1 | event) + (0+ category.numeric|event), data=completecases,REML=F))

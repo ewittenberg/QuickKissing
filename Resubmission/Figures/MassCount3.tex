@@ -1,0 +1,82 @@
+
+%COORDINATES IN TIKZ (because I keep forgetting!): (1,2) = 1 to the right and 2 up from the origin of the picture
+\usetikzlibrary{matrix}
+
+\tikzfading[name=fade out,
+	inner color=transparent!0,
+	outer color=transparent!100]
+
+\tikzfading[name=fade right,
+	left color=transparent!0,
+	right color=transparent!100]
+
+\tikzfading[name=fade right two,
+	left color=transparent!0,
+	right color=transparent!70]
+
+\begin{tikzpicture}
+%\draw[style=help lines] (0,0) grid (10,10);
+\draw[rounded corners,fill=red!50] (2.7,9.5) rectangle (6.3,9) node[pos=.5] {\bf{{ $\times$} \  \  { $\times$} \  \ { $\times$} \   \ { $\times$}}};
+\path 	(0,9.5) 	node(iter) 		[rectangle, text width=2cm,draw=none] 		{\textbf{punctive events}}
+		(5.2,9.8) 	node(expun) 		[rectangle, thick, text width=2cm,draw=none] 		{\emph{kiss}}
+%		(3,9) 	node(long) 		[rectangle,rounded corners, draw,fill]		{{\tiny $\times$} {\tiny $\times$} {\tiny $\times$} {\tiny $\times$}}		
+		(3,9.25) 	node(b) 											{}
+		(6,9.25)	node(c)											{}
+		(6,9.1)		node(ca)											{}
+		%subevents
+		(3,7) 	node(d) 		[rectangle,rounded corners, draw,fill=yellow!20]		{{$\times$}}
+%		(3.5,7) 	node(e) 		[rectangle,rounded corners, draw,fill]		{{\tiny $\times$}}
+		(4,7) 	node(f) 		[rectangle,rounded corners, draw,fill=yellow!40]		{{$\times$}}
+%		(4.5,7) 	node(g) 		[rectangle,rounded corners, draw,fill]		{{\tiny $\times$}}
+		(5,7) 	node(h) 		[rectangle,rounded corners, draw,fill=yellow!60]		{{$\times$}}
+%		(5.5,7) 	node(i) 		[rectangle,rounded corners, draw,fill]		{{\tiny $\times$}}
+		(6,7) 	node(j) 		[rectangle,rounded corners, draw,fill=red!50]		{{$\times$}}
+		(6.5,6.3) 	node(expunlvc) 		[rectangle, text width=1.2cm,draw=none] 		{\emph{to give a kiss}}
+
+		%text discrete substructure
+		(8.5,9.5) 	node(discrete) 	[rectangle,text centered, text width=3cm,draw=none] 		{\textbf{atomic, telic}}
+		%text lvc
+		(6.7,8) 	node(clvc) 	[rectangle, text centered, text width=1.3cm,draw=none] 		{{{count syntax}}};
+
+\draw[ultra thick,->] (ca) -- (j);
+\draw[rounded corners, fill=blue!50,path fading = fade out] (2.6,5) rectangle (6.4,3.5);
+\draw[rounded corners,fill=green!50] (4.9,2.1) rectangle (6.9,1.6);
+\draw[rounded corners, fill=blue!50, path fading = fade right two] (2.2,2.1) rectangle (3.8,1.6);
+\path 	(0,4.5) 	node(dur) 		[rectangle, text width=2cm,draw=none] 		{\textbf{durative events}}
+		(4.5,4.8) 	node(exdur) 		[rectangle, text width=2cm,draw=none] 		{\emph{advise/talk}}
+		(3,4.25) 	node(1) 											{}
+		(6,4.25)	node(2)											{}
+		(4.5,4.1)		node(lower)											{}
+		%types of events
+		(3,2) 	node(count) 		[rectangle,rounded corners, draw=none]		{\textbf{}}
+		(3,1) 	node(exdurmass) 		[rectangle, text width=1.2cm,draw=none] 		{\emph{to give advice}}
+
+		
+		(6,2) 	node(mass) 		[rectangle,rounded corners, draw=none]		{\textbf{}}
+		(6,1) 	node(exdurcount) 		[rectangle, thin, text width=1.2cm,draw=none] 		{\emph{to give a talk}}
+
+
+		%text discrete substructure
+		(8.5,4.5) 	node(cont) 	[rectangle,text centered, text width=3cm,draw=none] 		{\textbf{non-atomic, atelic}}
+		%text lvc
+		(6.3,3) 	node(clvc2) 	[rectangle, text centered, text width=1.3cm,draw=none] 		{{{count syntax}}}
+		(2.9,3) 	node(mlvc) 	[rectangle,text centered, text width=1.3cm,draw=none] 		{{{mass syntax}}};
+\draw[thick,snake=snake, path fading= fade right] (1) -- (2);
+\draw[ultra thick,->] (lower) -- (mass);
+\draw[ultra thick,->] (lower) -- (count);
+\draw[thick,snake=zigzag] (5.1,1.8) -- (6.7,1.8);
+\draw[thick,snake=snake] (2.5,1.8) -- (3.5,1.8);
+
+    \matrix(dict)[matrix of nodes, below=4.5cm of exdur,
+        nodes={align=center,anchor=center,text width=3.8cm},
+        row 1/.style={anchor=south},
+        column 1/.style={nodes={text width=2.3cm,align=right}}
+    ]{\hline& \textbf{punctive count} & \textbf{durative mass} & \textbf{durative count} \\
+        \textbf{Predictions:} & \emph{kiss $\rightarrow$ give a kiss} & \emph{advise $\rightarrow$ give advice} & \emph{talk $\rightarrow$ give a talk}\\\hline
+        temporal construal  & shorter & shorter & no prediction\\\hline
+        number of events & fewer & same & fewer \\\hline
+        event \ \ \ \ \ \ \ \ \ similarity & similar & similar & different	\\\hline\hline\\
+    };
+
+\end{tikzpicture}
+
