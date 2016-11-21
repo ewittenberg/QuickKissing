@@ -1,6 +1,6 @@
-\documentclass[preprint,12pt,authoryear]{elsarticle}
+\documentclass[review,12pt,authoryear]{elsarticle}
 \input{JML_Preamble}
-\usepackage[final]{changes} %add [final] to not show tracked changes
+\usepackage{changes} %add [final] to not show tracked changes
 %\definechangesauthor[name={Eva}, color=OliveGreen]{eva}
 \setremarkmarkup{(#2)}
 \setdeletedmarkup{\color{red}{\sout{#1}}}
@@ -9,10 +9,8 @@
 %\SetWatermarkText{Authors' Draft}
 %\SetWatermarkScale{3} 
 \usepackage{afterpage} %helps figures to their own page
-%\usepackage[style=authoryear-comp, language=english,url=false, doi=false,isbn=false, bibencoding=utf8]{biblatex}
-%\usepackage{bibentry}
-%\bibliography{allgemein,additional-refs}
-
+\bibliographystyle{model5-names}\biboptions{authoryear}
+\newcommand*{\sectionformat}{\centering}
 
 \date{\today}
 \journal{Journal of Memory and Language}
@@ -34,9 +32,12 @@ Massachusetts Institute of Technology\\
 Cambridge, MA 02139-4307}
 
 
+
 \begin{abstract}
 When we hear an event description, our \added{mental} construal \deleted{of the event }is not only based on lexical items\deleted{ in the message}, but also on the message's syntactic structure. This has been well-studied in the domains of\deleted{ how listeners conceptualize} causation,\deleted{ roles of} event participants, or object conceptualization\deleted{properties, depending on syntactic choices}. Less studied are\deleted{ subtle aspects of} the construals of temporality and numerosity \deleted{of events }as a function of syntax. We present a theory of how \deleted{the} syntax \deleted{of an event description} affects the construal of event similarity and duration in a way that is systematically predictable from the interaction of mass\replaced{/}{ versus }count syntax and verb semantics, and test these predictions in six studies. \replaced{P}{We found that p}unctive events in count syntax{ (\emph{give a \replaced{kiss}{hug}})} and durative events in mass syntax{ (\emph{give advice})} are construed as taking less time than in transitive \deleted{verb }frame{ (\emph{\replaced{kiss}{hug}} and \emph{advise})}. Durative verbs in count syntax (\emph{give a talk})\replaced{, however, }{, on the other hand}\replaced{result in}{, yield a different pattern: Count syntax{ }, compared to simple transitive constructions{ (\emph{talk})}, leads to} a semantic shift\deleted{ in event structure}\replaced{, orthogonal to}{ and does not systematically affect} duration estimates. These results\replaced{ demonstrate}{ support our theory of} how syntactic and semantic structure together systematically affect event construal.
+
 \end{abstract}
+
 
 \begin{keyword}
 Events \sep Lexical Aspect \sep Light Verb Constructions \sep Mass--Count distinction \sep Individuation \sep Linguistic Framing
@@ -44,7 +45,7 @@ Events \sep Lexical Aspect \sep Light Verb Constructions \sep Mass--Count distin
 
 \end{frontmatter}
 
-\section{Introduction}
+\section*{\sectionformat Introduction}
 When people talk to each other about what happened, they usually don't need to specify how long it took. Everybody knows from experience that a kiss lasts a few moments, a conference talk may carry on for about twenty minutes, and giving professional advice takes maybe half an hour, so there is typically no need to explicitly mention the duration. Duration is also usually not encoded grammatically. However, grammatical cues in event descriptions often significantly influence other aspects of event representations in listeners, such as causation, event structure, and the semantic roles of event participants \citep{fausey2010, wittenberg2014sorting,JohnsonGoldberg2013}. It would be all the more interesting, thus, if very subtle grammatical choices were to reliably affect how long listeners think an event takes. 
 
 In this paper, we explore how encoding event descriptions in simple verbs \emph{(to kiss, to advise)} versus count or mass noun light verb constructions \emph{(to give a kiss, to give advice)} has repercussions on the temporal encoding of these events. Based on the fundamental observation that the reference properties of syntactic objects can change the reference properties of the whole predicate (\citeauthor{Krifka1992}, \citeyear{Krifka1992}), we predict that nominalizing an event can help dividing experience into countable units, influencing duration estimates in a way that is systematically predictable from the interaction of verb semantics and nominal syntax.
@@ -57,7 +58,7 @@ If it is true that mass and count syntax contribute to event individuation, then
 \begin{figure}[ht!]
 \centering
 \include{./Figures/MassCount3}
-\caption{Predictions of how mass versus count syntax interacts with verb semantics, with regards to event duration construals, number of events, and event similarity. See Section \ref{sec_predictions}.}
+\caption{Predictions of how mass versus count syntax interacts with verb semantics, with regards to event duration construals, number of events, and event similarity; see pp. \pageref{sec_predictions}ff..}
 \label{aspectchange_model}
 \end{figure}
 \clearpage
@@ -67,11 +68,11 @@ Punctive events are distinct from durative events not only in that they are \add
 
 Many of the aforementioned events, like \emph{kiss, advise} or \emph{talk}, can either be expressed as transitive verbs, or as so-called light verb constructions. In light verb constructions, the verb contributes little semantics beyond tense, number agreement, and aspect, while the meaning of the expression comes from the deverbal noun \citep{Jespersen1954,Wiese2006,Jackendoff1974,Brugman2001,Butt2003,butt2010}. These light verb constructions appear either with count syntax, such as \emph{to give a kiss} and \emph{to give a talk}, or mass syntax, such as \emph{to give advice}. Thus, light verb constructions offer us an opportunity to study the interaction of verb type and mass versus count syntax with an existing alternation, as opposed to unusual constructions such as \emph{to do climbs} \citep{barner2008events}\added{, or using novel lexical items \citep{WellwoodOUP}}: Light verb constructions, like \emph{to give a kiss}, and their full verb counterparts, like \emph{to kiss}, are in a relationship of syntactic alternation with minimal difference in meaning \citep{glatz2006funktionsverbgefuge,Allerton2002}. In our study of punctive and durative events, we use light verb constructions with \emph{give}, which is itself \replaced{telic}{bounded} \citep{newman1996}.
 
-\subsection{The mass--count distinction and verbal aspect}
+\subsection*{\sectionformat The mass--count distinction and verbal aspect}
 
 \added{Ever since \cite{bach1986algebra}, linguistic theory has been fascinated by the parallels between kinds of objects vs. substances on the one hand, and kinds of atomic vs. non-atomic events on the other hand  \citep{Krifka1992,casati2008event,quine1969,rothstein2008structuring,verkuyl1972compositional,jackendoff1991parts,Hale1993,Harley05howdo}. One of the defining differences between objects and materials is that labels for objects denote atomic units, which cannot be partitioned arbitrarily: Only a whole apple, not a piece of an apple, can be described with the count noun \emph{an apple}. A piece of an apple, on the other hand, will need to be further described with a quantifier or specific expression, such as \emph{slice of an apple}, or \emph{apple core}. Objects can also be individuated and counted (\emph{three apples}). Materials, however, are non-atomic, and can be partitioned in an arbitrary fashion: a quart of applesauce can be divided into many portions, yet each individual portion still denotes \emph{applesauce} \citep[and many others]{rips2015divisions,bale2009interpretation}. Introducing individuability to mass nouns, however,  is easily accomplished when they are quantized \citep[\emph{a bottle of wine, a quart of applesauce}; see][]{Krifka1992,Wiese2005}}.
 
-\added{Events have the property of atomicity or non-atomicity, too: Some events are atomic, and some events are non-atomic. For example, if Mary kissed John, then she stopped just for a moment, and then started kissing him again, the pre-interruption kiss would be a new event, even if the people and location are the same: an event of kissing is atomic in that it cannot be broken apart. (Note also that the character of the start and end points is constitutive of the event: if there is not contact between a set of lips and a surface, with a a clearly defined onset and a clearly defined, voluntary or involuntary, offset, the term \emph{kiss} does not apply.) This not true for all events (or processes, see \citeauthor{WellwoodOUP}, \citeyear{WellwoodOUP}): If the president talked to a crowd, stopped for a moment, and started talking again, it could still be the same event of talking. Similarly, {advising} can be partitioned and spread over many advising sessions, but the overarching event of advising is the same, as long as there is some degree of spatial or character continuity (\citeauthor{anderson1983accessibility}, \citeyear{anderson1983accessibility}; \citeauthor{magliano2011impact}, \citeyear{magliano2011impact}; \citeauthor{zacks2001event}, \citeyear{zacks2001event}). Talking and advising are thus non-atomic: they can thus be broken up and still count as the same talking and advising events.}
+\added{Events have the property of atomicity or non-atomicity, too: Some events are atomic, and some events are non-atomic. For example, if Mary kissed John, then she stopped just for a moment, and then started kissing him again, the pre-interruption kiss would be a new event, even if the people and location are the same: an event of kissing is atomic in that it cannot be broken apart. (Note also that the character of the start and end points is constitutive of the event: if there is not contact between a set of lips and a surface, with a a clearly defined onset and a clearly defined, voluntary or involuntary, offset, the term \emph{kiss} does not apply.) This not true for all events (or processes, see \citeauthor{WellwoodOUP}, \citeyear{WellwoodOUP}): If the president talked to a crowd, stopped for a moment, and started talking again, it could still be the same event of talking. Similarly, {advising} can be partitioned and spread over many advising sessions, but the overarching event of advising is the same, as long as there is some degree of spatial or character continuity \citep{anderson1983accessibility,zacks2001event,magliano2011impact}. Talking and advising are thus non-atomic: they can thus be broken up and still count as the same talking and advising events.}
 
 \added{The atomicity and non-atomicity of events is highly correlated with notions of telicity, boundedness, and aspect in verbs or predicates, as well as the distinction between events and processes in some approaches.}\footnote{\label{aspectualdistinction}Telic events are said to involve some kind of natural endpoint (\citeauthor{andersson1972aktionalitat}, \citeyear{andersson1972aktionalitat}; \citeauthor{garey1957verbal}, \citeyear{garey1957verbal}; \citeauthor{bauer1970english}, \citeyear{bauer1970english}; \citeauthor{klein1994time}, \citeyear{klein1994time}; \citeauthor{Vendler1957}, \citeyear{Vendler1957}, among others). This definition covers accomplishments, like \emph{to draw a circle}, but not all punctive events. The classical definition of punctive events is that they only take a moment in time. How long this moment takes, however, is underspecified: The duration of \emph{to sneeze} depends entirely on the sneezer; \emph{to explode} can conceptually take more than a few seconds; and the event described by \emph{to break} might last for a few minutes. Thus, temporal properties make up one part of the diagnostics; the other part is contributed by the intuition that there is a natural endpoint to a given event.
 
@@ -87,7 +88,7 @@ So what should we expect in the case of durative verbs entering count syntax, li
 
 But then, if it is true that durative events in count syntax undergo a conceptual shift in event kind, predictions about event duration are up in the air, since the change induced by count syntax would be orthogonal to changes in temporal conceptualization. In this paper we explore both sides: Whether event duration estimates are modulated by the introduction of mass and count syntax, and whether there is an effect on how similar events are judged as depending on the syntactic construction. In the next section, we will discuss the link between event representation and linguistic encoding in more detail.
 
-\subsection{Event construal via linguistic encoding}
+\subsection*{\sectionformat Event construal via linguistic encoding}
 How linguistic framing influences people's event conceptualization, memory, and recall has long been a topic of interest in science, such as in behavioral economics  \citep{kahneman1977intuitive, roy2005underestimating,kruger2004if,halkjelsvik2011read}, criminal justice \citep{loftus1987time,tse2004attention,macar1994controlled,boltz1995effects}, and cognitive science \citep{madden2003does,magliano2000verb}. These studies, however, were mainly concerned with behavioral or memory consequences of linguistic encoding accompanying visual scenes, and less with representational or grammatical issues.
 
 In psycholinguistics, using grammatical alternations to study their influence on event construal started with \citet{gropen1991}, who found that subtle changes to event structure affected which form of the locative alternation people used in production (\emph{cover a surface with marbles} or \emph{dropping marbles onto a surface}). A later study confirmed the intuition that  syntactically omitting agents from an event description reduces how much blame is assigned to them \citep{fausey2010}. \replaced{D}{Finally, d}irectly related to the constructions used in this paper, we know that using a light verb construction with \emph{give} influences the construal of thematic roles \citep{wittenberg2014sorting,Wittenbergunderreview}. \added{And finally, there is evidence from a production study that the naturalness of event divisions predicts the choice of mass or count syntax \citep{WellwoodOUP}.}
@@ -100,7 +101,7 @@ How could this interaction work? Most current theoretical approaches have accoun
 
 Taking this as a starting point, we should be able to observe a systematic interaction between syntax, the lexicon, and event construal. We assume that syntactic, conceptual, lexical, and phonological structure interact and predict upcoming features and structures every step of the way \citep{Jackendoff2007a,Jackendoff2002,GarrodPickering2003,levy2008,martin2016language}.\footnote{Another option would be a strictly linear model: A lexical item is inserted into a syntactic tree, its phonological form created, and its meaning read off by the comprehender, without any feedback loop to the semantic or conceptual system. In this case, both forms of the lexical items (e.g., \emph{kiss}, \emph{talk} or \emph{advise} as either noun or verb) are ontologically linked to the same event structure regardless of grammatical status, and it should not make a difference for duration estimates whether they appear as a verb or in either mass or count noun syntax, since the comprehender's lexicon is set up the same way -- \emph{kiss} conveys the same event regardless of whether it appears as verb or noun. Thus, this linear model would not predict any differences in duration estimates.} This architecture of the linguistic system allows for an interaction between representations on the levels of syntax (mass and count syntax), semantics (the \replaced{telicity}{boundedness} of \emph{give}), and event knowledge (how long kissing usually takes). Other approaches \citep{goldberg2003,Goldberg1995} explicitly allow for different meaning shades of grammatical constructions; presumably, the distinct meaning of a ditransitive construction as a \replaced{telic}{bounded} event would be even more straightforwardly predicted from this perspective. Crucially, both of these models would predict differences in duration estimates due to the interaction of verbal and nominal semantics and syntax.
 
-\subsection{Key theoretical predictions and the current studies}\label{sec_predictions}
+\subsection*{\sectionformat Key theoretical predictions and the current studies}\label{sec_predictions}
 The current studies investigate whether describing an event with mass or count syntax, as opposed to a simple transitive verb, affect\added{s} the construal of event duration, event similarity, and event repetitions in a comprehender. Figure \ref{aspectchange_model} shows a graphical representation of our theory.
 
 Starting from the top of Figure \ref{aspectchange_model}, we look at punctive events like \emph{kissing}. Previous studies have shown that punctive events are often construed as occurring more than once \citep{paczynski2014events,barner2008events,Kim2015}, e.g., a comprehender might hear \emph{John kissed Mary} and imagine more than one kiss. In Figure \ref{aspectchange_model}, this is represented by four crosses, which are distinctive\added{, atomic} subevents within one \added{iterated, }bounded kissing event. Count syntax, according to our theory, should encourage event individuation in iterative events: In the case of our example, \emph{giving a kiss} describes only one \replaced{atom of a}{particular} kiss. This in turn should have repercussions in the construal of event temporality, leading to conceptualizations of shorter event duration. Another prediction is that punctive events in count syntax will be construed as consisting of fewer event iterations than in transitive syntax. 
@@ -109,9 +110,9 @@ The bottom of Figure \ref{aspectchange_model} visualizes our predictions for dur
 
 When durative events occur in count syntax, such as in \emph{to give a talk} (bottom right on Figure \ref{aspectchange_model}), we hypothesize that, analogous to the cases of using mass nouns in count syntax (\emph{glass, iron} versus \emph{\underline{a} glass, \underline{an} iron}), there are arbitrary and unpredictable changes in the kinds of events these nouns then describe. For example, \emph{giving a talk} still retains a sense of utterance production, but in a very different context and with different event parameters (this difference is represented by a change in color, and the zigzag line, in Figure \ref{aspectchange_model}). This creates another prediction: \emph{Talking} and \emph{giving a talk} should be conceptually less closely related than punctive count and durative mass pairs. In terms of event counts, we predict that count syntax form will help event individuation and possibly lead to a reduction in event counts. Crucially, both event similarity and event count differences would operate entirely orthogonally from the construal of event duration.
 
-We present six experiments that test these predictions. To test the claim that the construal of event duration is predictable from the interaction of mass versus count syntax, and verb semantics, we present two studies that elicited open estimates of event duration (Section \ref{sec_expOE}, Experiment 1a and 1b); \added{in order to ensure that the estimates obtained in Experiments 1a and 1b are not due to task difficulty}, we \added{then} present a temporal categorization experiment, in which participants categorized event descriptions into predefined time bins (Section \ref{sec_exCat}, Experiment 2). Section \ref{sec_expHowMany} presents two studies that establish whether using count or mass syntax affects how many events people imagine: \added{Experiments 3a and 3b investigate whether the determiner "a" in ditransitive count syntax picks out one particular instance of an event, which would expound shorter temporal estimates in count syntax.} Finally, in Section \ref{sec_expES}, we investigate whether describing durative events in count syntax indeed leads to conceptual shifts in event type, \added{which would explain the inconsistent pattern observed for durative events} (Experiment 4).
+We present six experiments that test these predictions. To test the claim that the construal of event duration is predictable from the interaction of mass versus count syntax, and verb semantics, we present two studies that elicited open estimates of event duration (Experiment 1a and 1b); \added{in order to ensure that the estimates obtained in Experiments 1a and 1b are not due to task difficulty}, we \added{then} present a temporal categorization experiment, in which participants categorized event descriptions into predefined time bins (Experiment 2). Then we present two studies that establish whether using count or mass syntax affects how many events people imagine: \added{Experiments 3a and 3b investigate whether the determiner "a" in ditransitive count syntax picks out one particular instance of an event, which would expound shorter temporal estimates in count syntax.} Finally we investigate whether describing durative events in count syntax indeed leads to conceptual shifts in event type, \added{which would explain the inconsistent pattern observed for durative events} (Experiment 4).
 
-\subsection{Stimuli used for all studies}
+\subsection*{\sectionformat Stimuli used for all studies}
 \label{sec_stims}
 \begin{table}[h]
 \hspace{-1cm}\noindent
@@ -144,23 +145,23 @@ Of the twenty experimental items, seven encoded punctive events, e.g. \emph{kiss
 
 In all studies except for Experiment 4, the items were embedded in a sentence context. All sentences used the simple past. Each sentence included a temporal or local adjunct phrase, to encourage non-repeti\-tive readings (e.g. \emph{The professor advised her student on his paper \underline{yesterday}}). In addition to the experimental items, we also created 27 filler sentences.
 
-\section{Experiment 1a: Open estimates of event duration} \label{sec_expOE}
+\section*{\sectionformat Experiment 1a: Open estimates of event duration} \label{sec_expOE}
 In Experiment 1a, we asked participants to rate how long events took. The events were described by simple transitive or light ditransitive constructions, and we were interested in whether the predictions displayed in Figure \ref{aspectchange_model} would be confirmed. If so, we expect punctive events like {kissing} to be estimated as taking less time in the ditransitive construction (\emph{giving a kiss}). We should also observe the same trend for durative events when they occur in mass syntax (\emph{advising -- giving advice}), but not durative events in count syntax (\emph{talking -- giving a talk}). Experiment 1b served as a replication, with event category as a between-subjects factor.
 
-\subsection{Methods}
-\subsubsection{Participants} \label{sec_partOE}
+\subsection*{\sectionformat Methods}
+\subsubsection*{Participants} \label{sec_partOE}
 We recruited 100 unique individuals on Amazon Mechanical Turk, an online
 crowd-sourcing tool. Mechanical Turk allows access to a large number of study participants, who participate anonymously for reasonable compensation, in our case for about \$6 an hour \citep{buhrmester2011amazon,crump2013evaluating}. Our participants had IP addresses within the United States and were self-reported native speakers of English.
 
-\subsubsection{Stimuli}\label{sec_stimOE}
-We created two lists out of the sentences described in Section \ref{sec_stims} and distributed the experimental items across them with a fully within-subjects Latin-square design, such that each participant saw each sentence in only one of the two constructional forms (transitive, or ditransitive light verb). The fillers were the same across lists.
+\subsubsection*{Stimuli}\label{sec_stimOE}
+We created two lists out of the sentences described above and distributed the experimental items across them with a fully within-subjects Latin-square design, such that each participant saw each sentence in only one of the two constructional forms (transitive, or ditransitive light verb). The fillers were the same across lists.
 
-\subsubsection{Procedure}\label{sec_procOE}
+\subsubsection*{Procedure}\label{sec_procOE}
 Participants read each sentence and then estimated how long the event described in the sentence probably took. The exact instructions can be found under \url{https://github.com/ewittenberg/QuickKissing}.
 
 For each item, participants were able to enter their estimated event duration in a set of three text boxes, one for hours, one for minutes, and one for seconds, e.g., a participant could respond ``1 hour(s), 13 minute(s), 7 second(s)". Empty boxes were treated as a response of zero for that unit of time. Completing the study took about 17 minutes on average.
 
-\subsection{Results}\label{sec_resOE}
+\subsection*{\sectionformat Results}\label{sec_resOE}
 Responses in which the estimated duration was zero were discarded. This affected less than .1\% of the data. Since effects of grammatical structure on event duration would be likely to operate proportionally to intrinsic event duration, we transformed all responses to log-seconds for purposes of data summarization and analysis. Figure \ref{fig_resOE} shows the pattern of results, with responses back-transformed to hours, minutes, and seconds, for convenience of interpretation. \added{In all figures in the paper, bar plots show means and Standard Errors of by-subject means unless otherwise stated.}
 
 \begin{figure}[ht!]
@@ -207,7 +208,7 @@ construction          & 1 &  7.9 & 0.005 *** \\
 %\label{fig_resOE}
 %\end{figure}
 
-\subsection{Replication: Experiment 1b}\label{repl_OE}
+\subsection*{\sectionformat Replication: Experiment 1b}\label{repl_OE}
 
 We replicated this study with 300 participants on Amazon Mechanical Turk by making event type (punctive count, durative count or durative mass) a between-subjects factor, reasoning that thinking about events on vastly different time scales might wash out sharper judgments. \added{For example, the literature on prospective time estimation shows that in events lasting more than a few moments, people count internally to "track time", while for very short events, this strategy is not used }\citep{grondin1999start,zakay1995attentional}\added{. Similarly, short events like kissing or hugging might be imagined by conjuring up an image of this event, while for longer events like talking or advising, abstract world knowledge might be employed to estimate duration. Experiment 1b served to exclude this potential mix of strategies in temporal estimation.} The exact instructions can be found under \url{https://github.com/ewittenberg/QuickKissing}.
 
@@ -241,20 +242,20 @@ construction          & 1 &  4.98 & 0.026 * \\
 \label{table_OE_BetwSubj}
 \end{table}
 
-\subsection{Discussion of Experiments 1a and 1b}\label{sec_discOE}
-As described in Section~\ref{sec_predictions}, the theory we proposed of how linguistic encoding and event type interact in event construal strongly predicted an effect of construction (transitive versus light-verb) on inferred event duration for punctive events whose light-verb encoding involves count syntax (\emph{kissing} vs. \emph{giving a kiss}): light-verb syntax should shorten inferred event durations.  This prediction was borne out in both Experiments 1a and 1b.  The theory predicted no systematic effect on inferred event duration for durative events encoded with count syntax, as this encoding requires more substantial, conventionalized \deleted{conventional} shifts  (\emph{talk} vs.\ \emph{give a talk}).  This prediction was also borne out: there was no trace of a systematic effect of construction on inferred event duration across Experiments 1a and 1b.  We suggested that the theory's predictions were less clear for durative events encoded with mass syntax (\emph{advise} vs.\ \emph{give advice}), and indeed our results across the two experiments were less clear. We found a significant shortening effect of light-verb syntax in Experiment 1a; in Experiment 1b, the same numeric pattern was evident but did not reach significance.
+\subsection*{\sectionformat Discussion of Experiments 1a and 1b}\label{sec_discOE}
+As described above, the theory we proposed of how linguistic encoding and event type interact in event construal strongly predicted an effect of construction (transitive versus light-verb) on inferred event duration for punctive events whose light-verb encoding involves count syntax (\emph{kissing} vs. \emph{giving a kiss}): light-verb syntax should shorten inferred event durations.  This prediction was borne out in both Experiments 1a and 1b.  The theory predicted no systematic effect on inferred event duration for durative events encoded with count syntax, as this encoding requires more substantial, conventionalized \deleted{conventional} shifts  (\emph{talk} vs.\ \emph{give a talk}).  This prediction was also borne out: there was no trace of a systematic effect of construction on inferred event duration across Experiments 1a and 1b.  We suggested that the theory's predictions were less clear for durative events encoded with mass syntax (\emph{advise} vs.\ \emph{give advice}), and indeed our results across the two experiments were less clear. We found a significant shortening effect of light-verb syntax in Experiment 1a; in Experiment 1b, the same numeric pattern was evident but did not reach significance.
 
 As a methodological note, one might notice that the duration estimates seemed fairly high. We know from previous studies that estimating the duration of an event is often influenced by its pleasantness or desirability \citep{roy2005underestimating,kahneman1977intuitive}. Although the numerical values of the estimated event durations are not crucial here, since we are only interested in the difference in estimates that is attributable to syntactic structure, it is conceivable that our participants' estimates were influenced by factors not due to the grammatical construction alone. For this reason, we decided to replicate this study as a categorization task with predefined time windows as answer options. The predefined time windows were based on previous answers, to validate the results obtained in Experiment 1a and 1b. 
 
-\section{Experiment 2: Categorizations of event duration}\label{sec_exCat}
+\section*{\sectionformat Experiment 2: Categorizations of event duration}\label{sec_exCat}
 This experiment gave participants the opportunity to estimate event durations without needing to come up with their own time estimates, and instead being able to select among predefined time bins for each individual event. 
 
-\subsection{Method}\label{sec_methodurative massat}
-\subsubsection{Participants} \label{sec_partCat}
+\subsection*{\sectionformat Method}\label{sec_methodurative massat}
+\subsubsection*{Participants} \label{sec_partCat}
 
 We recruited 80 self-reported native speakers of English on Amazon Mechanical Turk with IP addresses within the United States.
 
-\subsubsection{Stimuli}\label{sec_stimCat}
+\subsubsection*{Stimuli}\label{sec_stimCat}
 We used the same sentences as in the previous studies. Participants read each sentence and then had to categorize the event for duration by clicking one of four options. These options were created from the quartiles of the empirical distribution of estimated durations of each item pair in Experiment 1b; thus, every item had different answer options, as in Examples (1) and (2):
 
 \begin{enumerate}
@@ -275,7 +276,7 @@ We used the same sentences as in the previous studies. Participants read each se
 \end{enumerate}
 
 The same lists as in Experiment 1a were used.
-\subsection{Results}\label{sec_resCat}
+\subsection*{\sectionformat Results}\label{sec_resCat}
 
 Figure \ref{fig_resCat} shows the proportional distribution of categorizations into the four time bins, and the proportion of counts in each category, depending on event category and grammatical construction. In general, we observed a tendency to categorize all events into the shorter time bins. More theoretically crucial, light verb constructions were categorized as being shortest.
 
@@ -316,7 +317,7 @@ shortest$|$short & -0.114 & 0.256 &  &  \\
 \end{figure}
 
 
-\subsection{Discussion of Experiment 2}\label{sec_discCat}
+\subsection*{\sectionformat Discussion of Experiment 2}\label{sec_discCat}
 This study gave participants the opportunity to estimate event durations using predefined time bins as choices, which might have been easier for them than coming up with time estimates on their own. The answer options in Experiment 2 were based on each item pair's averaged estimates from Experiment 1a, which, as we discussed above, seemed fairly high. Nevertheless, we found significant differences for punctive count events: When presented in ditransitive light verb constructions \emph{(give a kiss)}, they were estimated to last less time th\replaced{a}{e}n in transitive syntax \emph{(kiss)}. For durative count and durative mass events \emph{(talking/giving a talk, advising/giving advice)}, we did not observe such a difference, although the $\beta$-estimates indicate that durative mass events follow the same trend as punctive count events, with ditransitive structures pushing categorizations towards shorter bins. 
 
 Interestingly, the largest proportion of choices in both grammatical constructions and all three event types fell to the \added{short or }shortest options. Given that the choice options were based on previously obtained quartiles, the answers should have been roughly equally distributed. Thus, our data contribute to the literature on over- and underestimation of event duration in an interesting way: Open guesses as in Experiment 1a and 1b tend to overestimate (at least for the event types we used here, which, unlike in classical studies on the planning fallacy, did not include unpleasant chore-like events), whereas predefined categorizations are closer to more realistic event durations.\footnote{We tested this explanation by giving participants shorter answer options that were not based on previous estimates. We found a much more equal distribution of answers. Since this study is tangential to the goal of this paper, it is not reported in detail, but the data are accessible under \url{https://github.com/ewittenberg/QuickKissing}.} 
@@ -325,7 +326,7 @@ As stated above, though, we were not \emph{per se} interested in how long events
 
 The next three studies test these \replaced{possible mechanisms of how temporal estimates are affected by syntax}{explanations}: Experiments 3a and 3b investigate \added{whether count syntax serves to single out one particular instance of an event. This could explain why events are imagined to be shorter in punctive count syntax. It would not, however, explain why durative count time-estimates were unaffected by changes in syntactic structure; in this case, we hypothesized that the lack of an effect in this condition is due to a conceptual shift between transitive verbs and count syntax, similar to the change from "iron" to "an iron". This conceptual shift would be orthogonal to event duration. We investigated the existence of such a conceptual shift in } \deleted{how many event repetitions are imagined by comprehenders, depending on the syntactic construction; and }Experiment 4\deleted{ asks whether using mass and count syntax introduced a conceptual shift between transitive and ditransitive mass versus count syntax}. 
 
-\section{Experiment 3a: Event repetition}\label{sec_expHowMany}
+\section*{\sectionformat Experiment 3a: Event repetition}\label{sec_expHowMany}
 
 This section presents two studies that establish whether using count or mass syntax affects how many times an event is understood as occurring. 
 
@@ -335,17 +336,17 @@ Obviously, in order to be counted, a given event needs to be individuated, and w
 
 However, for durative events that can enter count syntax, we might predict the same trend as for punctive count events: \emph{talking} could convey more events than \emph{giving a talk}. Note that this prediction is independent of our second prediction, namely that there is a conceptual shift involved from a transitive durative verb to the same lexical item in ditransitive count syntax; and that any changes in event repetition counts would still be orthogonal to changes in event duration.
 
-\subsection{Methods}\label{sec_methodHowMany}
-\subsubsection{Participants} \label{sec_partHowMany}
+\subsection*{\sectionformat Methods}\label{sec_methodHowMany}
+\subsubsection*{Participants} \label{sec_partHowMany}
 For this study, we recruited 80 self-described English native speakers from Amazon Mechanical Turk.
 
-\subsubsection{Procedure}\label{sec_procHowMany}
+\subsubsection*{Procedure}\label{sec_procHowMany}
 Participants read each sentence and then noted how many events they imagined reading the sentence. The exact instructions can be found under \url{https://github.com/ewittenberg/QuickKissing}.
 
-\subsubsection{Stimuli}\label{sec_stimHowMany}
+\subsubsection*{Stimuli}\label{sec_stimHowMany}
 We used the stimuli described in Table \ref{ex_pairs}, counterbalanced across two lists. 
 
-\subsection{Results}\label{sec_resHowMany}
+\subsection*{\sectionformat Results}\label{sec_resHowMany}
 Our data spanned several orders of magnitude, (e.g., responses for punctive events in transitive frame ranged from 1 to 60), effects of construction are likely to operate proportional to intrinsic construal of numbers of events, as was the case with construed event durations in Experiments 1a and 1b.  Therefore we log-transformed event-count responses for purposes of data summarization and analysis. 
 
 Mean count of events was lower for ditransitive light verb constructions in each event category. Figure \ref{fig_resCount}  shows the pattern of results, with log event counts back-transformed to raw event counts for convenience of interpretation: For punctive count events, using a ditransitive light verb construction instead of the transitive verb reduced the mean count from \replaced{1.7}{2.3} to \replaced{1.5 (log-averages)}{1.8}. These effects were also numerically present for durative count and durative mass items, but variances in these constructions were higher.
@@ -378,7 +379,7 @@ construction          & 1 &  7.011 & 0.008 ** \\
 
 Statistical analysis followed the same procedures as in Experiment 1a.  The upper part of Table \ref{tab_countsregr3} shows results of the $3 \times 2$ ANOVA-style analyses (here, all random correlation parameters were removed to ensure model convergence).  We find that construction had a significant main effect on event counts, event category was marginally significant, and their interaction was not.  The lower half of \added{Table} \ref{tab_countsregr3} shows results of the planned tests of the simple effect of construction within each event category (random correlation parameters did not need to be removed).  We see a significant effect of construction in punctive count pairs, but not in durative count or durative mass pairs.
 
-\subsection{Replication: Experiment 3b}\label{repl_HowMany}
+\subsection*{\sectionformat Replication: Experiment 3b}\label{repl_HowMany}
 We replicated this study by asking 80 native speakers on Amazon Mechanical Turk for the \added{number of} specific event types \added{imagined} after each sentence\deleted{s}, for example ``How many kisses did you just imagine?", ``How many talks did you just imagine?", or ``How many advices did you just imagine?" \added{(instead of, as in Experiment 3a, asking the generic ``How many \emph{events} did you just imagine?")}. Note that predictions for durative count items might be stronger in this study than in Experiment 3a, since we asked for the specific event \added{(e.g., talks), thus excluding any super- or subevents people might have imagined as well, such as "climbing the podium", "adjusting the microphone", etc}. We obtained a similar pattern of results (see Figure \ref{fig_resCount3b}).
 
 \begin{figure}
@@ -407,7 +408,7 @@ construction          & 1 &  11.034 & 0.000 *** \\
 \label{tab_countsregr3b}
 \end{table}
 
-\subsection{Discussion of Experiment 3a and 3b}\label{sec_discHowMany}
+\subsection*{\sectionformat Discussion of Experiment 3a and 3b}\label{sec_discHowMany}
 
 This study investigated whether phrasing an event with mass or count syntax, instead of with a transitive verb, affects any iterative readings that are present. 
 
@@ -417,20 +418,20 @@ Contrary to what the previous literature has claimed, durative events resulted i
 
 However, we had hypothesized that count syntax might encourage a conceptual shift in durative verbs that acts orthogonally to any changes in temporal conceptualization. The last experiment investigates this possibility.
 
-\section{Experiment 4: Event Similarity}\label{sec_expES}
+\section*{\sectionformat Experiment 4: Event Similarity}\label{sec_expES}
 This study tested another prediction of our theory: that durative events in count syntax (\emph{to give a talk}) should be conceptually further apart from their transitive verb counterparts (\emph{to talk}) than punctive events in count syntax, or durative events in mass syntax. This prediction is drawn from the analogy to mass nouns, such as \emph{glass} or \emph{iron} into count syntax: In many cases, the count noun denotes objects that are conceptually related, yet different, from the noun in mass syntax, such as in \emph{a glass} or \emph{an iron}. If the durative events in count syntax behave in parallel, we should expect them to be conceptually further apart from their transitive counterparts than punctive events in count or durative events in mass syntax.
 
-\subsection{Methods}\label{sec_methodES}
-\subsubsection{Participants}
+\subsection*{\sectionformat Methods}\label{sec_methodES}
+\subsubsection*{Participants}
 We recruited 40 self-described English native speakers from Amazon Mechanical Turk for this study.
 
-\subsubsection{Procedure}\label{sec_procES}
+\subsubsection*{Procedure}\label{sec_procES}
 We asked participants to rate event similarity between transitive and ditransitive frames on a 7-point Likert scale where 1 indicated ``same event”, and  7, ``completely different event". The exact instructions can be found under \url{https://github.com/ewittenberg/QuickKissing}.
 
-\subsubsection{Stimuli}\label{sec_stimES}
+\subsubsection*{Stimuli}\label{sec_stimES}
 We used the 20 item pairs shown in Table \ref{ex_pairs}, without the sentence context. In addition, we created 26 filler pairs that ranged from very close synonyms (\emph{repairing -- fixing}) to very different events (\emph{working -- being lazy}).
 
-\subsection{Results}\label{sec_resES}
+\subsection*{\sectionformat Results}\label{sec_resES}
 For filler items, the average rating was 3.62 (SD=2.1), with the full range of the scale being used. 
 
 Figure \ref{fig_resSimilarity} shows the rating results for critical pairs. Punctive events (\emph{to kiss} vs \emph{to give a kiss}) received a mean rating of 1.6 (SD=1.0). Pairs of durative verbs and durative verbs in mass syntax (\emph{to advise} vs \emph{to give advice}) received a similarly low rating (mean: 1.5, SD=.9). This means that for both punctive count and durative mass items, both constructions denote very similar events.  As predicted, difference ratings for pairs of durative verbs and durative verbs in count syntax (\emph{to talk} vs \emph{to give a talk}) were higher: 2.1 (SD=1.5).
@@ -459,12 +460,12 @@ Like in Experiments 1a, 1b, and 3, we used linear mixed models with maximal rand
 \label{fig_resSimilarity}
 \end{figure}
 
-\subsection{Discussion of Experiment 4}\label{sec_discES}
+\subsection*{\sectionformat Discussion of Experiment 4}\label{sec_discES}
 Experiment 4 confirms the intuition that while \emph{giving a kiss} and \emph{kissing}, as well as \emph{giving advice} and \emph{advising}, belong ontologically to the same event, \emph{giving a talk} and \emph{talking} are conceptually further apart -- albeit with considerable overlap. This result contributes to claims made in the literature that light verb constructions often help to close lexical gaps \citep{miyagawa1989light,Grimshaw1988,glatz2006funktionsverbgefuge}, and it draws our attention to interesting parallels to using count syntax on mass nouns  \citep{gordon1985evaluating,srinivasan2015concepts,Wiese2005}.
 
 These results are crucial to our question of how using mass or count syntax affects the construal of event duration: If a durative lexeme in count syntax covers a conceptually different event than the same lexical item in a transitive verb frame, the conceptualization of event duration applies to the new concept, and thus any changes in duration estimates would be largely coincidental.
 
-\section{General Discussion}
+\section*{\sectionformat General Discussion}
 We have presented a family of experiments that tested the hypothesis that describing an event with mass versus count syntax affects the construal of event similarity and duration in a way that is systematically predictable from the interaction of mass versus count syntax and verb semantics (see Figure \ref{aspectchange_model} on page \pageref{aspectchange_model}). These predictions were built on insights from formal semantics that has pointed out similarities between mass nouns and durative\added{, non-atomic} events on the one side, and count nouns and punctive\added{, atomic} events on the other side \citep{Krifka1992,jackendoff1991parts,Harley05howdo,WellwoodOUP,bach1986algebra,casati2008event}.
 
 Specifically, we had predicted that punctive events in count syntax (\emph{give a \replaced{kiss}{hug}}) are construed as taking less time than in transitive verb frame (\emph{kiss}); this pattern was predicted because in punctive events, which are often interpreted iteratively \citep{Kim2015}, one \added{atomic }subevent is singled out by count syntax.
@@ -500,7 +501,7 @@ In sum, this paper showed that using mass versus count syntax affects the constr
 \newpage
 \input{Acknowledgments}
 \clearpage
-\bibliographystyle{plainnat}
+\section*{\sectionformat References}
 \bibliography{QuickKissing,additional-refs}
 \input{AppendixA}
 \input{AppendixB}

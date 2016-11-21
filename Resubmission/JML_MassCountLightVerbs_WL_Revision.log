@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 NOV 2016 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 NOV 2016 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -89,6 +89,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
+(./JML_MassCountLightVerbs_WL_Revision.spl)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
@@ -1093,7 +1094,6 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 ))
-changes-option 'final'
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/pdfcolmk.sty
 Package: pdfcolmk 2008/08/11 v1.2 Color support for pdfTeX via marks (HO)
 Package pdfcolmk Info: The color stack of pdfTeX >= 1.40 is used. Therefore
@@ -1129,44 +1129,41 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@partial=\box76
 \AP@footins=\box77
 )
-No file JML_MassCountLightVerbs_WL_Revision.aux.
+(./JML_MassCountLightVerbs_WL_Revision.aux (./Figures/MassCount3.aux))
 \openout1 = `JML_MassCountLightVerbs_WL_Revision.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 19.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 19.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
-File: t3cmr.fd 2001/12/31 TIPA font definitions
-)
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 17.
+LaTeX Font Info:    Try caption.34}{}}
+? 
+./JML_MassCountLightVerbs_WL_Revision.aux:127: Emergency stop.
+l.127 ...bars represent standard errors.} \relax }
+                                                  {figure.caption.34}{}}
+End of file on the terminal!
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count163
-\scratchdimen=\dimen190
-\scratchbox=\box78
-\nofMPsegments=\count164
-\nofMParguments=\count165
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count166
-\MPscratchDim=\dimen191
-\MPnumerator=\count167
-\makeMPintoPDFobject=\count168
-\everyMPtoPDFconversion=\toks45
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+ 
+Here is how much of TeX's memory you used:
+ 22174 strings out of 493089
+ 433354 string characters out of 6134842
+ 528693 words of memory out of 5000000
+ 25203 multiletter control sequences out of 15000+600000
+ 6047 words of font info for 22 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,1n,71p,1104b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+./JML_MassCountLightVerbs_WL_Revision.aux:127:  ==> Fatal error occurred, no ou
+tput PDF file produced!
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1189,7 +1186,7 @@ Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1199,81 +1196,27 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count169
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
+
+(./JML_MassCountLightVerbs_WL_Revision.out)
+(./JML_MassCountLightVerbs_WL_Revision.out)
 \@outlinefile=\write6
 \openout6 = `JML_MassCountLightVerbs_WL_Revision.out'.
 
-LaTeX Font Info:    Try loading font information for U+wasy on input line 45.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 46.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-)
-
-Package natbib Warning: Citation `fausey2010' on page 1 undefined on input line
- 48.
+) [1
 
 
-Package natbib Warning: Citation `wittenberg2014sorting' on page 1 undefined on
- input line 48.
-
-
-Package natbib Warning: Citation `JohnsonGoldberg2013' on page 1 undefined on i
-nput line 48.
-
-[1
-
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `Krifka1992' on page 2 undefined on input line
- 50.
-
-
-Package natbib Warning: Citation `Krifka1992' on page 2 undefined on input line
- 50.
-
-
-Package natbib Warning: Citation `barner2008events' on page 2 undefined on inpu
-t line 52.
-
-
-Package natbib Warning: Citation `Barner2006' on page 2 undefined on input line
- 52.
-
-
-LaTeX Warning: Reference `aspectchange_model' on page 2 undefined on input line
- 54.
-
-
-Package natbib Warning: Citation `Dowty1991' on page 2 undefined on input line 
-54.
-
-
-Package natbib Warning: Citation `Vendler1957' on page 2 undefined on input lin
-e 54.
-
-
-LaTeX Warning: Reference `aspectualdistinction' on page 2 undefined on input li
-ne 54.
-
-
-Package natbib Warning: Citation `paczynski2014events' on page 2 undefined on i
-nput line 66.
-
-
-Package natbib Warning: Citation `barner2008events' on page 2 undefined on inpu
-t line 66.
-
-
-Package natbib Warning: Citation `Kim2015' on page 2 undefined on input line 66
-.
-
-[2]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 \openout2 = `./Figures/MassCount3.aux'.
 
- (./Figures/MassCount3.tex
+
+(./Figures/MassCount3.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.0 (rcs-revision 1.4)
@@ -1287,794 +1230,122 @@ Overfull \hbox (38.96503pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
-)
+) [4
 
-LaTeX Warning: Reference `sec_predictions' on page 3 undefined on input line 67
-.
 
+] [5
 
-LaTeX Warning: Reference `sec_predictions' on page 3 undefined on input line 67
-.
-
-[3
-
-
-]
-
-Package natbib Warning: Citation `Jespersen1954' on page 4 undefined on input l
-ine 68.
-
-
-Package natbib Warning: Citation `Wiese2006' on page 4 undefined on input line 
-68.
-
-
-Package natbib Warning: Citation `Jackendoff1974' on page 4 undefined on input 
-line 68.
-
-
-Package natbib Warning: Citation `Brugman2001' on page 4 undefined on input lin
-e 68.
-
-
-Package natbib Warning: Citation `Butt2003' on page 4 undefined on input line 6
-8.
-
-
-Package natbib Warning: Citation `butt2010' on page 4 undefined on input line 6
-8.
-
-
-Package natbib Warning: Citation `barner2008events' on page 4 undefined on inpu
-t line 68.
-
-
-Package natbib Warning: Citation `WellwoodOUP' on page 4 undefined on input lin
-e 68.
-
-
-Package natbib Warning: Citation `glatz2006funktionsverbgefuge' on page 4 undef
-ined on input line 68.
-
-
-Package natbib Warning: Citation `Allerton2002' on page 4 undefined on input li
-ne 68.
-
-
-Package natbib Warning: Citation `newman1996' on page 4 undefined on input line
- 68.
-
-
-Package natbib Warning: Citation `bach1986algebra' on page 4 undefined on input
- line 72.
-
-
-Package natbib Warning: Citation `Krifka1992' on page 4 undefined on input line
- 72.
-
-
-Package natbib Warning: Citation `casati2008event' on page 4 undefined on input
- line 72.
-
-
-Package natbib Warning: Citation `quine1969' on page 4 undefined on input line 
-72.
-
-
-Package natbib Warning: Citation `rothstein2008structuring' on page 4 undefined
- on input line 72.
-
-
-Package natbib Warning: Citation `verkuyl1972compositional' on page 4 undefined
- on input line 72.
-
-
-Package natbib Warning: Citation `jackendoff1991parts' on page 4 undefined on i
-nput line 72.
-
-
-Package natbib Warning: Citation `Hale1993' on page 4 undefined on input line 7
-2.
-
-
-Package natbib Warning: Citation `Harley05howdo' on page 4 undefined on input l
-ine 72.
-
-
-Package natbib Warning: Citation `rips2015divisions' on page 4 undefined on inp
-ut line 72.
-
-
-Package natbib Warning: Citation `bale2009interpretation' on page 4 undefined o
-n input line 72.
-
-
-Package natbib Warning: Citation `Krifka1992' on page 4 undefined on input line
- 72.
-
-
-Package natbib Warning: Citation `Wiese2005' on page 4 undefined on input line 
-72.
-
-
-Package natbib Warning: Citation `WellwoodOUP' on page 4 undefined on input lin
-e 74.
-
-
-Package natbib Warning: Citation `WellwoodOUP' on page 4 undefined on input lin
-e 74.
-
-
-Package natbib Warning: Citation `anderson1983accessibility' on page 4 undefine
-d on input line 74.
-
-
-Package natbib Warning: Citation `anderson1983accessibility' on page 4 undefine
-d on input line 74.
-
-
-Package natbib Warning: Citation `magliano2011impact' on page 4 undefined on in
-put line 74.
-
-
-Package natbib Warning: Citation `magliano2011impact' on page 4 undefined on in
-put line 74.
-
-
-Package natbib Warning: Citation `zacks2001event' on page 4 undefined on input 
-line 74.
-
-
-Package natbib Warning: Citation `zacks2001event' on page 4 undefined on input 
-line 74.
-
-[4
-
-]
-
-Package natbib Warning: Citation `andersson1972aktionalitat' on page 5 undefine
-d on input line 80.
-
-
-Package natbib Warning: Citation `andersson1972aktionalitat' on page 5 undefine
-d on input line 80.
-
-
-Package natbib Warning: Citation `garey1957verbal' on page 5 undefined on input
- line 80.
-
-
-Package natbib Warning: Citation `garey1957verbal' on page 5 undefined on input
- line 80.
-
-
-Package natbib Warning: Citation `bauer1970english' on page 5 undefined on inpu
-t line 80.
-
-
-Package natbib Warning: Citation `bauer1970english' on page 5 undefined on inpu
-t line 80.
-
-
-Package natbib Warning: Citation `klein1994time' on page 5 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `klein1994time' on page 5 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `Vendler1957' on page 5 undefined on input lin
-e 80.
-
-
-Package natbib Warning: Citation `Vendler1957' on page 5 undefined on input lin
-e 80.
-
-
-Package natbib Warning: Citation `bott2010' on page 5 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `bott2010' on page 5 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `kearns2000semantics' on page 5 undefined on i
-nput line 80.
-
-
-Package natbib Warning: Citation `kearns2000semantics' on page 5 undefined on i
-nput line 80.
-
-[5]
-
-Package natbib Warning: Citation `gordon1985evaluating' on page 6 undefined on 
-input line 84.
-
-
-Package natbib Warning: Citation `srinivasan2015concepts' on page 6 undefined o
-n input line 84.
-
-
-Package natbib Warning: Citation `Allerton2002' on page 6 undefined on input li
-ne 86.
-
-
-Package natbib Warning: Citation `miyagawa1989light' on page 6 undefined on inp
-ut line 86.
-
-
-Package natbib Warning: Citation `Grimshaw1988' on page 6 undefined on input li
-ne 86.
-
-
-Package natbib Warning: Citation `glatz2006funktionsverbgefuge' on page 6 undef
-ined on input line 86.
-
-[6]
-
-Package natbib Warning: Citation `kahneman1977intuitive' on page 7 undefined on
- input line 91.
-
-
-Package natbib Warning: Citation `roy2005underestimating' on page 7 undefined o
-n input line 91.
-
-
-Package natbib Warning: Citation `kruger2004if' on page 7 undefined on input li
-ne 91.
-
-
-Package natbib Warning: Citation `halkjelsvik2011read' on page 7 undefined on i
-nput line 91.
-
-
-Package natbib Warning: Citation `loftus1987time' on page 7 undefined on input 
-line 91.
-
-
-Package natbib Warning: Citation `tse2004attention' on page 7 undefined on inpu
-t line 91.
-
-
-Package natbib Warning: Citation `macar1994controlled' on page 7 undefined on i
-nput line 91.
-
-
-Package natbib Warning: Citation `boltz1995effects' on page 7 undefined on inpu
-t line 91.
-
-
-Package natbib Warning: Citation `madden2003does' on page 7 undefined on input 
-line 91.
-
-
-Package natbib Warning: Citation `magliano2000verb' on page 7 undefined on inpu
-t line 91.
-
-
-Package natbib Warning: Citation `gropen1991' on page 7 undefined on input line
- 93.
-
-
-Package natbib Warning: Citation `fausey2010' on page 7 undefined on input line
- 93.
-
-
-Package natbib Warning: Citation `wittenberg2014sorting' on page 7 undefined on
- input line 93.
-
-
-Package natbib Warning: Citation `Wittenbergunderreview' on page 7 undefined on
- input line 93.
-
-
-Package natbib Warning: Citation `WellwoodOUP' on page 7 undefined on input lin
-e 93.
-
-
-Package natbib Warning: Citation `burt1996effects' on page 7 undefined on input
- line 95.
-
-
-Package natbib Warning: Citation `flecken2013grammatical' on page 7 undefined o
-n input line 95.
-
-
-Package natbib Warning: Citation `pedersen2002differences' on page 7 undefined 
-on input line 95.
-
-
-Package natbib Warning: Citation `coll2011time' on page 7 undefined on input li
-ne 95.
-
-[7]
-
-Package natbib Warning: Citation `halle1994some' on page 8 undefined on input l
-ine 99.
-
-
-Package natbib Warning: Citation `barner2002no' on page 8 undefined on input li
-ne 99.
-
-
-Package natbib Warning: Citation `Jackendoff2007a' on page 8 undefined on input
- line 101.
-
-
-Package natbib Warning: Citation `Jackendoff2002' on page 8 undefined on input 
-line 101.
-
-
-Package natbib Warning: Citation `GarrodPickering2003' on page 8 undefined on i
-nput line 101.
-
-
-Package natbib Warning: Citation `levy2008' on page 8 undefined on input line 1
-01.
-
-
-Package natbib Warning: Citation `martin2016language' on page 8 undefined on in
-put line 101.
-
-
-Package natbib Warning: Citation `goldberg2003' on page 8 undefined on input li
-ne 101.
-
-
-Package natbib Warning: Citation `Goldberg1995' on page 8 undefined on input li
-ne 101.
-
-[8]
-
-LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
- 104.
-
-
-LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
- 106.
-
-
-Package natbib Warning: Citation `paczynski2014events' on page 9 undefined on i
-nput line 106.
-
-
-Package natbib Warning: Citation `barner2008events' on page 9 undefined on inpu
-t line 106.
-
-
-Package natbib Warning: Citation `Kim2015' on page 9 undefined on input line 10
-6.
-
-
-LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
- 106.
-
-
-LaTeX Warning: Reference `aspectchange_model' on page 9 undefined on input line
- 108.
-
-[9]
-
-LaTeX Warning: Reference `aspectchange_model' on page 10 undefined on input lin
-e 110.
-
-
-LaTeX Warning: Reference `aspectchange_model' on page 10 undefined on input lin
-e 110.
-
-
-LaTeX Warning: Reference `sec_expOE' on page 10 undefined on input line 112.
-
-
-LaTeX Warning: Reference `sec_exCat' on page 10 undefined on input line 112.
-
-
-LaTeX Warning: Reference `sec_expHowMany' on page 10 undefined on input line 11
-2.
-
-
-LaTeX Warning: Reference `sec_expES' on page 10 undefined on input line 112.
-
-
-Overfull \hbox (39.59923pt too wide) in paragraph at lines 117--136
+] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+Overfull \hbox (39.59923pt too wide) in paragraph at lines 118--137
 [] [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10]
-
-LaTeX Warning: Reference `ex_pairs' on page 11 undefined on input line 141.
-
-
-LaTeX Warning: Reference `aspectchange_model' on page 11 undefined on input lin
-e 141.
-
-[11]
-
-LaTeX Warning: Reference `aspectchange_model' on page 12 undefined on input lin
-e 148.
-
-[12]
-
-Package natbib Warning: Citation `buhrmester2011amazon' on page 13 undefined on
- input line 153.
-
-
-Package natbib Warning: Citation `crump2013evaluating' on page 13 undefined on 
-input line 153.
-
-
-LaTeX Warning: Reference `sec_stims' on page 13 undefined on input line 156.
-
-
-LaTeX Warning: Reference `fig_resOE' on page 13 undefined on input line 164.
-
-<./Figures/Exp1a_AllEventsBar.pdf, id=129, 867.24pt x 578.16pt>
+[15] [16] [17] [18]
+<./Figures/Exp1a_AllEventsBar.pdf, id=419, 867.24pt x 578.16pt>
 File: ./Figures/Exp1a_AllEventsBar.pdf Graphic file (type pdf)
 
 <use ./Figures/Exp1a_AllEventsBar.pdf>
 Package pdftex.def Info: ./Figures/Exp1a_AllEventsBar.pdf used on input line 16
-8.
+9.
 (pdftex.def)             Requested size: 390.0pt x 260.00197pt.
- [13] [14 <./Figures/Exp1a_AllEventsBar.pdf>]
-
-Package natbib Warning: Citation `baayen2008mixed' on page 15 undefined on inpu
-t line 177.
-
-
-Package natbib Warning: Citation `bates2014package' on page 15 undefined on inp
-ut line 177.
-
-
-Package natbib Warning: Citation `barr2013' on page 15 undefined on input line 
-177.
-
-
-Package natbib Warning: Citation `levy2014mainEffects' on page 15 undefined on 
-input line 177.
-
-
-LaTeX Warning: Reference `table_OEregr' on page 15 undefined on input line 179.
-
-
-
-LaTeX Warning: Reference `table_OEregr' on page 15 undefined on input line 181.
-
-
-
-Package natbib Warning: Citation `grondin1999start' on page 15 undefined on inp
-ut line 212.
-
-
-Package natbib Warning: Citation `zakay1995attentional' on page 15 undefined on
- input line 212.
-
-[15] <./Figures/Exp1b_AllEventsBar.pdf, id=162, 867.24pt x 578.16pt>
+ [19] [20 <./Figures/Exp1a_AllEventsBar.pdf>] [21] [22] <./Figures/Exp1b_AllEve
+ntsBar.pdf, id=474, 867.24pt x 578.16pt>
 File: ./Figures/Exp1b_AllEventsBar.pdf Graphic file (type pdf)
 
 <use ./Figures/Exp1b_AllEventsBar.pdf>
 Package pdftex.def Info: ./Figures/Exp1b_AllEventsBar.pdf used on input line 21
-6.
+7.
 (pdftex.def)             Requested size: 390.0pt x 260.00197pt.
-
-
-LaTeX Warning: Reference `fig_resOE1b' on page 16 undefined on input line 221.
-
-
-LaTeX Warning: Reference `table_OE_BetwSubj' on page 16 undefined on input line
- 223.
-
-
-LaTeX Warning: Reference `table_OE_BetwSubj' on page 16 undefined on input line
- 223.
-
-
-LaTeX Warning: Reference `table_OE_BetwSubj' on page 16 undefined on input line
- 225.
-
-[16]
-
-LaTeX Warning: Reference `sec_predictions' on page 17 undefined on input line 2
-45.
-
-[17 <./Figures/Exp1b_AllEventsBar.pdf>]
-
-Package natbib Warning: Citation `roy2005underestimating' on page 18 undefined 
-on input line 247.
-
-
-Package natbib Warning: Citation `kahneman1977intuitive' on page 18 undefined o
-n input line 247.
-
-[18]
-
-LaTeX Warning: Reference `fig_resCat' on page 19 undefined on input line 280.
-
-
-Package natbib Warning: Citation `Christensen2015' on page 19 undefined on inpu
-t line 282.
-
-[19]
-
-LaTeX Warning: Reference `tab_regrCat' on page 20 undefined on input line 284.
-
-
-LaTeX Warning: Reference `tab_regrCat' on page 20 undefined on input line 286.
-
-[20] <./Figures/Exp2_CategorizationCategory.pdf, id=200, 867.24pt x 578.16pt>
+ [23 <./Figures/Exp1b_AllEventsBar.pdf>]
+[24] [25] [26] [27] [28]
+<./Figures/Exp2_CategorizationCategory.pdf, id=533, 867.24pt x 578.16pt>
 File: ./Figures/Exp2_CategorizationCategory.pdf Graphic file (type pdf)
 
 <use ./Figures/Exp2_CategorizationCategory.pdf>
 Package pdftex.def Info: ./Figures/Exp2_CategorizationCategory.pdf used on inpu
-t line 313.
+t line 314.
 (pdftex.def)             Requested size: 390.0pt x 260.00197pt.
- [21] [22 <./Figures/Exp2_CategorizationCategory.pdf>]
-
-Package natbib Warning: Citation `Kim2015' on page 23 undefined on input line 3
-32.
-
-
-Overfull \hbox (2.23714pt too wide) in paragraph at lines 332--333
+ [29] [30 <./Figures/Exp2_CategorizationCategory.pdf>] [31] [32]
+Overfull \hbox (2.23714pt too wide) in paragraph at lines 333--334
 []\OT1/cmr/m/n/12 The the-o-ret-i-cally most cru-cial pre-dic-tion ap-plies to 
 punc-tive events. Punc-
  []
 
-[23]
-
-Package natbib Warning: Citation `barner2008events' on page 24 undefined on inp
-ut line 334.
-
-
-Package natbib Warning: Citation `Krifka1992' on page 24 undefined on input lin
-e 334.
-
-
-LaTeX Warning: Reference `ex_pairs' on page 24 undefined on input line 346.
-
-[24]
-
-LaTeX Warning: Reference `fig_resCount' on page 25 undefined on input line 351.
-
-
-<./Figures/Exp3a_EventCountsBar.pdf, id=236, 867.24pt x 578.16pt>
+[33] <./Figures/Exp3a_EventCountsBar.pdf, id=576, 867.24pt x 578.16pt>
 File: ./Figures/Exp3a_EventCountsBar.pdf Graphic file (type pdf)
 
 <use ./Figures/Exp3a_EventCountsBar.pdf>
 Package pdftex.def Info: ./Figures/Exp3a_EventCountsBar.pdf used on input line 
-355.
+356.
 (pdftex.def)             Requested size: 390.0pt x 260.00197pt.
-
-
-LaTeX Warning: Reference `tab_countsregr3' on page 25 undefined on input line 3
-79.
-
-
-LaTeX Warning: Reference `tab_countsregr3' on page 25 undefined on input line 3
-79.
-
-[25 <./Figures/Exp3a_EventCountsBar.pdf>]
-
-LaTeX Warning: Reference `fig_resCount3b' on page 26 undefined on input line 38
-2.
-
-<./Figures/Exp3b_EventCountsBar.pdf, id=249, 867.24pt x 578.16pt>
+ [34] [35 <./Figures/Exp3a_EventCountsBar.pdf>] <./Figures/Exp3b_EventCountsBar
+.pdf, id=601, 867.24pt x 578.16pt>
 File: ./Figures/Exp3b_EventCountsBar.pdf Graphic file (type pdf)
 
 <use ./Figures/Exp3b_EventCountsBar.pdf>
 Package pdftex.def Info: ./Figures/Exp3b_EventCountsBar.pdf used on input line 
-386.
+387.
 (pdftex.def)             Requested size: 390.0pt x 260.00197pt.
-
-
-LaTeX Warning: Reference `tab_countsregr3b' on page 26 undefined on input line 
-391.
-
-
-LaTeX Warning: Reference `tab_countsregr3b' on page 26 undefined on input line 
-391.
-
-[26] [27 <./Figures/Exp3b_EventCountsBar.pdf>] [28]
-
-LaTeX Warning: Reference `ex_pairs' on page 29 undefined on input line 431.
-
-
-LaTeX Warning: Reference `fig_resSimilarity' on page 29 undefined on input line
- 436.
-
-
-LaTeX Warning: Reference `tab_SimilarityModels' on page 29 undefined on input l
-ine 453.
-
-[29] <./Figures/Exp4_EventSimilarityBar.pdf, id=284, 867.24pt x 650.43pt>
+ [36] [37 <./Figures/Exp3b_EventCountsBar.pdf>] [38] [39] [40]
+<./Figures/Exp4_EventSimilarityBar.pdf, id=647, 867.24pt x 650.43pt>
 File: ./Figures/Exp4_EventSimilarityBar.pdf Graphic file (type pdf)
 
 <use ./Figures/Exp4_EventSimilarityBar.pdf>
 Package pdftex.def Info: ./Figures/Exp4_EventSimilarityBar.pdf used on input li
-ne 457.
+ne 458.
 (pdftex.def)             Requested size: 390.0pt x 292.50221pt.
-
-
-Package natbib Warning: Citation `miyagawa1989light' on page 30 undefined on in
-put line 463.
-
-
-Package natbib Warning: Citation `Grimshaw1988' on page 30 undefined on input l
-ine 463.
-
-
-Package natbib Warning: Citation `glatz2006funktionsverbgefuge' on page 30 unde
-fined on input line 463.
-
-
-Package natbib Warning: Citation `gordon1985evaluating' on page 30 undefined on
- input line 463.
-
-
-Package natbib Warning: Citation `srinivasan2015concepts' on page 30 undefined 
-on input line 463.
-
-
-Package natbib Warning: Citation `Wiese2005' on page 30 undefined on input line
- 463.
-
-[30]
-
-LaTeX Warning: Reference `aspectchange_model' on page 31 undefined on input lin
-e 468.
-
-
-LaTeX Warning: Reference `aspectchange_model' on page 31 undefined on input lin
-e 468.
-
-
-Package natbib Warning: Citation `Krifka1992' on page 31 undefined on input lin
-e 468.
-
-
-Package natbib Warning: Citation `jackendoff1991parts' on page 31 undefined on 
-input line 468.
-
-
-Package natbib Warning: Citation `Harley05howdo' on page 31 undefined on input 
-line 468.
-
-
-Package natbib Warning: Citation `WellwoodOUP' on page 31 undefined on input li
-ne 468.
-
-
-Package natbib Warning: Citation `bach1986algebra' on page 31 undefined on inpu
-t line 468.
-
-
-Package natbib Warning: Citation `casati2008event' on page 31 undefined on inpu
-t line 468.
-
-
-Package natbib Warning: Citation `Kim2015' on page 31 undefined on input line 4
-70.
-
-[31 <./Figures/Exp4_EventSimilarityBar.pdf>]
-
-Package natbib Warning: Citation `barner2008events' on page 32 undefined on inp
-ut line 478.
-
-
-Package natbib Warning: Citation `Krifka1992' on page 32 undefined on input lin
-e 478.
-
-
-Overfull \hbox (2.9987pt too wide) in paragraph at lines 480--481
+ [41] [42 <./Figures/Exp4_EventSimilarityBar.pdf>] [43]
+Overfull \hbox (2.9987pt too wide) in paragraph at lines 481--482
 []\OT1/cmr/m/n/12 Experiment 4 showed, con-sis-tent with our pre-dic-tions, tha
 t du-ra-tive events
  []
 
-[32]
-
-Package natbib Warning: Citation `Krifka1992' on page 33 undefined on input lin
-e 484.
-
-
-Package natbib Warning: Citation `quine1969' on page 33 undefined on input line
- 484.
+[44] [45]
+Overfull \hbox (10.47816pt too wide) in paragraph at lines 495--496
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []
+ []
 
 
-Package natbib Warning: Citation `verkuyl1972compositional' on page 33 undefine
-d on input line 484.
+Overfull \hbox (7.50754pt too wide) in paragraph at lines 495--496
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+ []
 
-
-Package natbib Warning: Citation `fausey2010' on page 33 undefined on input lin
-e 486.
-
-
-Package natbib Warning: Citation `JohnsonGoldberg2013' on page 33 undefined on 
-input line 486.
-
-
-Package natbib Warning: Citation `wittenberg2014sorting' on page 33 undefined o
-n input line 486.
-
-
-Package natbib Warning: Citation `gropen1991' on page 33 undefined on input lin
-e 486.
-
-
-Package natbib Warning: Citation `bresnan2007' on page 33 undefined on input li
-ne 486.
-
-
-Package natbib Warning: Citation `benor2006chicken' on page 33 undefined on inp
-ut line 486.
-
-
-Package natbib Warning: Citation `wittenberg2014b' on page 33 undefined on inpu
-t line 488.
-
-
-Package natbib Warning: Citation `wittenberg2011' on page 33 undefined on input
- line 488.
-
-
-Package natbib Warning: Citation `Briem2009' on page 33 undefined on input line
- 488.
-
-
-Package natbib Warning: Citation `Pinangoinpress' on page 33 undefined on input
- line 488.
-
-
-Package natbib Warning: Citation `wittenberg2014sorting' on page 33 undefined o
-n input line 488.
-
-
-Package natbib Warning: Citation `Wittenbergunderreview' on page 33 undefined o
-n input line 488.
-
-
-Package natbib Warning: Citation `Sprenger2006' on page 33 undefined on input l
-ine 494.
-
-
-Package natbib Warning: Citation `titone2014time' on page 33 undefined on input
- line 494.
-
-
-Package natbib Warning: Citation `holsinger2013representing' on page 33 undefin
-ed on input line 494.
-
-
-Package natbib Warning: Citation `cutting1997s' on page 33 undefined on input l
-ine 494.
-
-
-Package natbib Warning: Citation `tabossi2009idiom' on page 33 undefined on inp
-ut line 494.
-
-[33] [34] (./Acknowledgments.tex) [35
+[46] [47] (./Acknowledgments.tex) [48
 
 ]
-No file JML_MassCountLightVerbs_WL_Revision.bbl.
-(./AppendixA.tex [36
+(./JML_MassCountLightVerbs_WL_Revision.bbl [49
+
+] [50]
+Underfull \hbox (badness 1748) in paragraph at lines 195--201
+[]\OT1/cmr/m/n/12 Christensen, R. H. B. (2015).  ordinal---Regression Mod-els f
+or Or-
+ []
 
 
-]) (./AppendixB.tex [37]
+Underfull \hbox (badness 6825) in paragraph at lines 195--201
+\OT1/cmr/m/n/12 di-nal Data.  R pack-age ver-sion 2015.1-21. http://www.cran.r-
 
-Package natbib Warning: Citation `RCT2014' on page 38 undefined on input line 3
-.
+ []
 
+[51] [52] [53]
+Underfull \hbox (badness 3386) in paragraph at lines 392--401
+\OT1/cmtt/m/n/12 dx . doi . org / 10 . 1080 / 01690965 . 2012 . 717632$[]\OT1/c
+mr/m/n/12 . doi:[]$\OT1/cmtt/m/n/12 10 . 1080 / 01690965 .
+ []
 
-Package natbib Warning: Citation `Christensen2015' on page 38 undefined on inpu
-t line 3.
+[54] [55] [56] [57] [58]) (./AppendixA.tex [59] [60
 
+]) (./AppendixB.tex [61]
+Overfull \hbox (0.43391pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/12 effects cu-mu-la-tive logit model us-ing the \OT1/cmtt/m/n/12 o
+rdinal \OT1/cmr/m/n/12 pack-age ([]Chris-tensen[], []2015[]).
+ []
 
-LaTeX Warning: Reference `fig:cumulative-logit-models' on page 38 undefined on 
-input line 26.
+[62
 
-<Figures/cumulative-logit-models.pdf, id=354, 433.62pt x 433.62pt>
+] <Figures/cumulative-logit-models.pdf, id=883, 433.62pt x 433.62pt>
 File: Figures/cumulative-logit-models.pdf Graphic file (type pdf)
 
 <use Figures/cumulative-logit-models.pdf>
@@ -2082,75 +1353,59 @@ Package pdftex.def Info: Figures/cumulative-logit-models.pdf used on input line
  30.
 (pdftex.def)             Requested size: 312.00119pt x 312.01428pt.
 )
-
-Package natbib Warning: There were undefined citations.
-
 \Changes@OutFile=\write7
 \openout7 = `JML_MassCountLightVerbs_WL_Revision.soc'.
 
-[38
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 508.
- [39 <./Figures/cumulative-logit-models.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 508.
-
-(./JML_MassCountLightVerbs_WL_Revision.aux (./Figures/MassCount3.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 508.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 508.
-
-
-Package rerunfilecheck Warning: File `JML_MassCountLightVerbs_WL_Revision.out' 
-has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `JML_MassCountLightVerbs_WL_Revision
-.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C94AD71727ABFFD8A4D41F803FFC6490;2448.
-
-LaTeX Warning: There were undefined references.
+ [63]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
+ [64 <./Figures/cumulative-logit-models.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
+ (./JML_MassCountLightVerbs_WL_Revision.aux
+(./Figures/MassCount3.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
+Package rerunfilecheck Info: File `JML_MassCountLightVerbs_WL_Revision.out' has
+ not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 508.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 509.
  ) 
 Here is how much of TeX's memory you used:
- 23631 strings out of 493089
- 458834 string characters out of 6134842
- 545540 words of memory out of 5000000
- 26464 multiletter control sequences out of 15000+600000
- 12835 words of font info for 48 fonts, out of 8000000 for 9000
+ 23959 strings out of 493089
+ 466137 string characters out of 6134842
+ 558917 words of memory out of 5000000
+ 26665 multiletter control sequences out of 15000+600000
+ 12527 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,16n,75p,2024b,1164s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on JML_MassCountLightVerbs_WL_Revision.pdf (39 pages, 371300 byt
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on JML_MassCountLightVerbs_WL_Revision.pdf (64 pages, 425466 byt
 es).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 369 compressed objects within 4 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 1019 PDF objects out of 1200 (max. 8388607)
+ 884 compressed objects within 9 object streams
+ 240 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
